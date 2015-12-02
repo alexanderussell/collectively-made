@@ -58,7 +58,7 @@ layout: default
 <aside class="read-next">
     <!-- [[! next_post ]] -->
     {% if page.next %}
-        <a class="read-next-story {% if page.next.cover-image %}" style="background-image: url(/img/covers/{{ page.next.cover-image }}){% else %}no-cover{% endif %}" href="{{ site.baseurl }}{{ page.next.url }}">
+        <a class="read-next-story {% if page.next.cover-image %}" style="background-image: url({{ site.baseurl }}/img/covers/{{ page.next.cover-image }}){% else %}no-cover{% endif %}" href="{{ site.baseurl }}{{ page.next.url }}">
             <section class="post">
                 <h2>{{ page.next.title }}</h2>
                 <p>{{ page.next.summary | truncatewords:15 }}</p>
@@ -68,7 +68,7 @@ layout: default
     <!-- [[! /next_post ]] -->
     <!-- [[! prev_post ]] -->
     {% if page.previous %}
-        <a class="read-next-story prev {% if page.previous.cover-image %}" style="background-image: url(/img/covers/{{ page.previous.cover-image }}){% else %}no-cover{% endif %}" href="{{ site.baseurl }}{{ page.previous.url }}">
+        <a class="read-next-story prev {% if page.previous.cover-image %}" style="background-image: url({{ site.baseurl }}/img/covers/{{ page.previous.cover-image }}){% else %}no-cover{% endif %}" href="{{ site.baseurl }}{{ page.previous.url }}">
             <section class="post">
                 <h2>{{ page.previous.title }}</h2>
                 <p>{{ page.previous.summary | truncatewords:15 }}</p>

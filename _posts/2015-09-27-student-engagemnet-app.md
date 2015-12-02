@@ -27,5 +27,5 @@ Their complex problems needed a different set of tactics to help them establish 
 With this information Student Technology gained the ability to understand what new services were needed by students. They now could make more informed decisions about what services to try, which services to formalize and scale up, and which services to abandon so they could redirect their time and efforts to better programming.
 
 ### The next story...
-<a href="/kiosk"> Student Engagement Kiosk - scaling an experience across a distributed network of touchpoints </a>
+<a href="{{ site.baseurl }}/kiosk"> Student Engagement Kiosk - scaling an experience across a distributed network of touchpoints </a>
 
