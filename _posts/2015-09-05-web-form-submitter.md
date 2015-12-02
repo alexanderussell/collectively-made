@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Web Form Submitter
-cover-image: form-submitter.jpg
 category: QIS
+cover-image: form-submitter.jpg
 summary: Designing an efficient way to collect and submit information.
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>

@@ -3,13 +3,12 @@ layout: post
 title: Data Viewer
 category: QIS
 cover-image: performance-dashboard.jpg
+summary: Reducing the number of steps needed to view performance.
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>
     - name: <a href="mailto:bode@collectivelymade.com">Bode Alabi</a>
     - name: <a href="mailto:russell037@gmail.com">Alexander Russell</a>
     - name: <a href="mailto:hello@protobanao.co">Proto Banao</a>
-
-summary: Reducing the number of steps needed to view performance.
 ---
 QIS staff need the ability to view the performance of locations to make informed decisions about improving their quality. To do that we created a system that would aggregate the submissions collected, allowing staff to measure areas against each other and against time. Because most questions are Yes or No questions, we can measure quality of service by looking at the percent of ‘yes’ answers given.
 
