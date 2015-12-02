@@ -2,7 +2,7 @@
 layout: post
 title: Data Viewer
 category: QIS
-cover-image: performance-dashboard.JPG
+cover-image: performance-dashboard.jpg
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>
     - name: <a href="mailto:bode@collectivelymade.com">Bode Alabi</a>
