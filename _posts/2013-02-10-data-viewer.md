@@ -6,7 +6,7 @@ cover-image: performance-dashboard.JPG
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>
     - name: <a href="mailto:bode@collectivelymade.com">Bode Alabi</a>
-    - name: <a href="mailto:alex@collectivelymade.com">Alexander Russell</a>
+    - name: <a href="mailto:russell037@gmail.com">Alexander Russell</a>
     - name: <a href="mailto:hello@protobanao.co">Proto Banao</a>
 
 summary: Reducing the number of steps needed to view performance.

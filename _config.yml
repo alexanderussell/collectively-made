@@ -2,12 +2,12 @@
 # The name of your website.
 name: Collectively Made
 
-description:
+description: A collective of creators that make projects, websites, mobile apps, designs, craziness, products, brands, prototypes, collaborations, surprises, web apps, software, strategies for people with good ideas.
 
   # Description of your site. This will show up in google.
-  meta: A collective of creators that solve problems through creative uses of technology
+  meta: A collective of creators that make projects, websites, mobile apps, designs, craziness, products, brands, prototypes, collaborations, surprises, web apps, software, strategies for people with good ideas.
   # Description of your site. This will show up on the front page.
-  subtitle: A collective of creators <br> that solve problems through <br> creative uses of technology
+  subtitle: A collective of creators that make projects, websites, mobile apps, designs, craziness, products, brands, prototypes, collaborations, surprises, web apps, software, strategies for people with good ideas.
 
 author:
   name: Collectively Made
@@ -86,7 +86,7 @@ disqus-shortname:
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter: http://twitter.com/alexanderussell
+twitter: 
 youtube:
 instagram:
 tumblr:
