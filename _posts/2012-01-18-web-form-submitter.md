@@ -13,7 +13,7 @@ collaborators:
 
 ---
 
-<img src="/img/form-submitter-1.png" />
+<img src="{{ site.baseurl }}/img/form-submitter-1.png" />
 
 This QIS app exists to allow users to fill out and submit forms to monitor quality assurance. As users began to use the application, it became aware there was a need for a capability to fill out forms using the web application. The form submitter is all about collecting data, and collecting data efficiently.
 
@@ -21,7 +21,7 @@ This QIS app exists to allow users to fill out and submit forms to monitor quali
 
 Supervisors usually submit forms using the mobile app while at the location they are evaluating. However, if doing a book review or financial review of the location which required accessing another electronic health records system online in addition to the information collected on location, supervisors would often leave the location and return to the office to fill out and submit these forms. This meant they were filling out a form based on their memory and or notes. Because of this, supervisors would prefer to be able to quickly scan through the questions and answer options as opposed to the more intimate approach of one question at a time such as in the mobile app. The increase in screen real-estate lended to this design as well.
 
-<img src="/img/formsubmitter-scan.gif" />
+<img src="{{ site.baseurl }}/img/formsubmitter-scan.gif" />
 
 ### Speed
 

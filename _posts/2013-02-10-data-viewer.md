@@ -13,7 +13,7 @@ summary: Reducing the number of steps needed to view performance.
 ---
 QIS staff need the ability to view the performance of locations to make informed decisions about improving their quality. To do that we created a system that would aggregate the submissions collected, allowing staff to measure areas against each other and against time. Because most questions are Yes or No questions, we can measure quality of service by looking at the percent of ‘yes’ answers given.
 
-<img src="/img/data-viewer-1.png" alt="data-viewer" />
+<img src="{{ site.baseurl }}/img/data-viewer-1.png" alt="data-viewer" />
 
 The first big challenge we faced was <i>how do we visualize a large amount of complex data in a simple and minimal way?</i> 
 
@@ -21,6 +21,6 @@ We broke down the process of viewing this data to determine all the different ki
 
 We opted to hide actual question data in a collapsable component because while necessary to see, it was it’s own set of comparisons. Staff would not compare a location aggregate to a question’s aggregate.
 
-<img src="/img/collapsable.gif" alt="collapsable" />
+<img src="{{ site.baseurl }}/img/collapsable.gif" alt="collapsable" />
 
 Another important design decision was made about retaining familiarity. The process of picking a form & geographic level were very similar to the way in which a user would pick a form to fill out when using the form submitter. Because of this, we maintained the similarity of the heading area to that of the form submitter. This played along our theme of speed because it reinforced known interactions. It reinforced the idea that using one app would teach you how to use the other.
