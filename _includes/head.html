@@ -7,9 +7,18 @@
 {{ site.name }}
 {% endif %}
 </title>
-<meta name="description" content="{{ page.summary }} {{ site.description.meta }}">
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
+{% if page.desc %}
+<meta name="description" content="{{ page.desc }}" />
+{% else %}
+<meta name="description" content="A collective of creators that make projects, websites, mobile apps, designs, craziness, products, brands, prototypes, collaborations, surprises, web apps, software, strategies for people with good ideas." />
+{% endif %}
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords }}" />
+{% else %}
 <meta name="keywords" content="Design, Web Design, Graphic Design, UI, UX, UIUX, UI Design, Interface Design, Application Design, Prototyping, Product Design, Front-end Dev, User Experience, UX Design, Software, Development, Hardware, Project, Full Stack"/>
+{% endif %}
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Collectively Made" />
 
