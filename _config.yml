@@ -24,6 +24,9 @@ baseurl: ""
 # language attribute in <html> element.
 lang: en
 
+gems:
+  - jekyll-sitemap
+
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
 ##############
