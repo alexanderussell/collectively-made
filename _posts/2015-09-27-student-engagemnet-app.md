@@ -10,7 +10,6 @@ collaborators:
     - name: <a href="mailto:bode@collectivelymade.com">Bode Alabi</a>
     - name: <a href="mailto:russell037@gmail.com">Alexander Russell</a>
 ---
-
 <dl>
 <dt>Goal</dt> <dd>more responsive student technology services</dd>
 <dt>Challenge</dt> <dd>how can Student Technology get more insight about the demand for their services</dd>
