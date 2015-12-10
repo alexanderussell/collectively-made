@@ -7,8 +7,8 @@ summary: A convenient way to monitor student engagement across touchpoints.
 
 collaborators:
     - name: <a href="mailto:hayden@collectivelymade.com">Hayden Gascoigne</a>
-    - name: <a href="mailto:bode@collectivelymade.com">Bode Alabi</a>
-    - name: <a href="mailto:russell037@gmail.com">Alexander Russell</a>
+    - name: <a href="mailto:bringbota@collectivelymade.com">Bode Alabi</a>
+    - name: <a href="mailto:alex@collectivelymade.com">Alexander Russell</a>
 ---
 <dl>
 <dt>Goal</dt> <dd>more responsive student technology services</dd>
