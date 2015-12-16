@@ -1,8 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>
-Collectively Made
-</title>
+<title>Collectively Made</title>
+<meta content="{% if page.title %}{{ page.title }} |{% endif %} {{ site.title }}" property="og:title" />
 {% if page.desc %}
 <meta name="description" content="{{ page.desc }}" />
 {% else %}
