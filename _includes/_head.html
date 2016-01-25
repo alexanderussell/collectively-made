@@ -1,0 +1,60 @@
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Alexander Russell | Designer</title>
+
+  <meta content="{% if page.title %}{{ page.title }} |{% endif %} {{ site.title }}" property="og:title" />
+  <meta content="Alexanderussell" property="og:site_name" />
+  <meta content="Alexander Russell" property="article:author" />
+  <meta content="article" property="og:type" />
+  <meta content="http://alexanderussell.org{{ page.url }}" property="og:url" />
+
+  <!-- SEO -->
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="Design, Web Design, Graphic Design, UI, UX, UIUX, UI Design, Interface Design, Application Design, Prototyping, Designer, Product Design, Front-end Dev, User Experience, UX Design, Alex Russell, Alexander Russell, alexanderussell"/>
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Alexander Russell" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="/social/style.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" href="/css/nkd.css">
+  <link rel="stylesheet" href="/css/i.css">
+  <!--<link rel="stylesheet" href="css/nkd.min.css">-->
+
+  <!-- Favicons and Touch Device Icons -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png">
+  <link rel="apple-touch-icon" sizes="72x72"   href="touch-icon-ipad-precomposed.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina-precomposed.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina-precomposed.png">
+
+  <script src="/js/jquery-2.1.1.js"></script>
+  <script>
+    $(function() {
+      // Thanks to Mark Avery
+      // http://stackoverflow.com/questions/8191015/how-do-i-lay-out-my-content-divs-in-a-similar-manner-to-facebook-timeline
+      var adjustArticleHeights = (function () {
+        var leftColumnHeight = 0,
+          rightColumnHeight = 0,
+          $articles = $('.thumb');
+        for (var i = 0; i < $articles.length; i++) {
+          // This just adds random heights to articles
+          
+          if (leftColumnHeight > rightColumnHeight) {
+            rightColumnHeight += $articles.eq(i).addClass('fr').outerHeight(true);
+          } else {
+            leftColumnHeight += $articles.eq(i).outerHeight(true);
+          }
+        }
+        return $articles;
+      })();
+    });
+  </script>
+</head>

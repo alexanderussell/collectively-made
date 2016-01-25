@@ -1,0 +1,19 @@
+<nav>
+  <h1 class="fw4 f4-ns ttu"><a href="/">AR</a></h1>
+  <a class="back" href="/projects.html">
+    <p class="current">{{ page.title }}</p>
+    <p class="go-back">Back to Projects</p>
+  </a>
+  <ul class="next-prev-btn">
+    <li class="next">
+      {% if page.next %}
+      <a href="{{ page.next.url }}">></a>
+      {% endif %}
+    </li>
+    <li class="prev">
+      {% if page.previous %}
+      <a href="{{ page.previous.url }}"><</a>
+      {% endif %}
+    </li>
+  </ul>
+</nav>

@@ -1,27 +1,52 @@
 ---
 layout: default
-home: true
 ---
 
-<div class="wrap">
-  <section class="current-stuff">
-    <ul>
-      <li>
-        <a class="button" href="{{ site.baseurl }}/work/">
-          View Our Work
-        </a>
-      </li>
-      <li>
-        <a class="button" href="{{ site.baseurl }}/about/">
-          Learn About Us
-        </a>
-      </li>
-      <li>
-        <a class="button" href="{{ site.baseurl }}/contact/">
-          Work With Us
-        </a>
-      </li>
-    </ul>
-  </section>
-  <div class="clearfix"></div>
-</div>
+<header class="pvx phm pax-m paxl-l bb b--near-white black oh pos-rel bg-near-white">
+  <div class="dt wi-100">
+    <div class="dtc wi-50 v-mid dk-gray">
+      <h1 class="fw6 ttu f5 f2-ns prm-ns mbn">Alexander Russell</h1>
+      <h2 class="fw4 f6 f6-ns ttu">Designer</h2>
+    </div>
+  </div>
+</header>
+<main class="pvx phm pax-m paxl-l">
+  <div>
+    <p class="f3 f2-m f1-l f2-xl measure lh-copy mw8-xl mtm">
+      Turning complex ideas into intuitive and beautiful products. Collaborator at <a href="http://www.collectivelymade.com">Collectively Made</a>. Writer for <a href="http://www.collectivelymade.com">Alphabet Town</a>. 
+    </p>
+    <!-- <p class="f5 f2-ns mw8 measure lh-copy">
+      Collaborator at <a href="http://www.collectivelymade.com">Collectively Made</a>.
+    </p>
+    </p>
+    <p class="f5 f2-ns mw7 measure lh-copy">
+      Writer for <a href="http://www.collectivelymade.com">Alphabet Town</a>.
+    </p>
+    <p class="f5 f2-ns mw6 measure lh-copy">
+    Constantly experimenting.
+    </p> -->
+  </div>
+</main>
+
+<aside class="pvx phm pax-m paxl-l" style="padding-top:0;">
+  <h2 class="fw4 f6 f6-ns ttu">Projects &amp; Experiments</h2>
+  <div class="loop-wrap" >
+    {% for post in site.posts limit:4 %}
+    <div class="thumb" id="{{ post.style }}">
+      <a class="project-link" {% if post.href %} href="{{post.href}}" target="_blank"{% else %} href="{{post.url}}" {% endif %}>
+        <div class="thumb-caption">
+          <h1 class="proj-name">{{post.title}}</h1>
+          <em class="fw4 f8-ns ttu">{{ post.subtitle }}</em>
+          <div class="thumb-cover" style="background-image:url(/img/{{ post.src }})"></div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="cf"></div>
+  <div class="tc pas">
+    <a class="proj-label btn" href="/projects.html">View More</a>
+  </div>
+</aside>
+{% include _footer.html %}
+
