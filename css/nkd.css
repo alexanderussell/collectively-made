@@ -460,12 +460,22 @@ a {
   background: #f05e5e;
   color:#fff; /* Gecko Browsers */
 }
-
+.mute {
+  color:#aaa;
+}
 
 footer {
   color:#aaa;
   padding-bottom: 4rem;
   background-color: #f8f8f8;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color:#f05e5e;
 }
 
 .hrd {
