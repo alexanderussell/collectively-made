@@ -1,7 +1,6 @@
 <!DOCTYPE html> 
 <html lang="en"> 
   {% include _head.html %}
-  {% include _navigation_main.html %}
   <body>
     {% include _header.html %}
     <div class="pam tc" style="padding-top:5rem;">
@@ -15,17 +14,11 @@
         {% endfor %}
       </ul>
     </div>
-    <article class="phm phxl-m phxxl-l pvxs-ns">
+    <article class="phm phxl-m phxxl-l pvxs-ns measure">
     {{ content }}
     <br>
-    <!-- <div class="fr tr pvl">
-        <h4 class="fw4 f6 f6-ns ttu">GET IN TOUCH</h4>
-        <small>
-            <a class="button" href="mailto:alex@collectivelymade.com">alex@collectivelymade.com</a>
-        </small>
-    </div>
-    <div class="cf"></div> -->
     </article>
+    {% include _related.html %}
   </body>
   {% include _footer.html %}
 </html>

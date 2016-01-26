@@ -446,7 +446,13 @@ table {
  * Add your site styles here. Break things out to additional partials if you'd like
  * and add them in import.scss
  */
-
+article p {
+  font-family: 'Merriweather', times;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  opacity: 0.9;
+  font-size: 16px;
+}
 
 a {
   color:#f05e5e;
@@ -622,25 +628,6 @@ nav .back p {
   color: #999;
   font-size: 24px;
   line-height: 24px;
-}
-
-
-#networks a:first-child {
-  margin-left: 0px;
-}
-#networks a {
-  color: #aaa;
-  text-align: center;
-  margin-left: 8px;
-  margin-right: 8px;
-  font-size: 30px;
-  opacity: 0.3;
-  font-family: 'icomoon';
-  text-decoration: none;
-}
-
-#networks a:hover {
-  opacity: 0.8;
 }
 
 .thumb {
