@@ -41,6 +41,20 @@ layout: default
       {% endfor %}
     </ul>
   </aside>
+
+  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
+    <h2 class="fw4 f4 f4-ns ttu">Library</h2>
+      {% for item in site.data.library %}
+        <a class="wi-33 wi-20-ns db tc fl none" href="{{ item.url }}" target="_blank">
+          <div class="lib-contain">
+            <img src="/img/library/{{ item.img }}" title style/>
+          </div>
+          <p class="black none db pan man" >{{ item.title }}</p>
+          <small class="gray none tc">{{ item.author }}</small>
+        </a>
+      {% endfor %}
+      <div class="cf"></div>
+  </aside>
 </div>
 {% include _footer.html %}
 

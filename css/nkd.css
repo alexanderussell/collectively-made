@@ -454,6 +454,13 @@ article p {
   font-size: 16px;
 }
 
+article h1,
+article h2,
+article h3, 
+article h4 {
+  font-weight: 400;
+}
+
 a {
   color:#f05e5e;
 }
@@ -495,7 +502,7 @@ footer a:hover {
 }
 
 .list li:not(:last-of-type) {
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .list li {
   padding: 12px 0;
@@ -522,6 +529,27 @@ footer a:hover {
 .list a:hover {
   color:#aaa;
 }
+
+.lib-contain {
+  width: 100%;
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.lib-contain img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  margin-bottom: 0.5rem;
+  transition: opacity 0.15s ease-in;
+  -webkit-transition: opacity 0.15s ease-in;
+  -moz-transition: opacity 0.15s ease-in;
+  -ms-transition: opacity 0.15s ease-in;
+}
+
 
 .hrd {
   margin: 0 auto;
