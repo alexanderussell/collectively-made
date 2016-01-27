@@ -1,11 +1,11 @@
 ---
-title: "We Are Vital"
-subtitle: "Crafting a digital space for a movement"
+title: "Course Check"
+subtitle: "Prototyping 101"
 layout: post
 categories: [work-featured]
 featured: true
 img: test.png
-permalink: /work/wearevital
+permalink: 
 ---
 
 Main content of your post.

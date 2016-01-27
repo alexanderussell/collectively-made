@@ -2,6 +2,9 @@
 title: "Bike Speed Poetry Generator"
 subtitle: "Subtitle placeholder"
 layout: post
+categories: [projects-featured]
+featured: true
+img: test.png
 ---
 This was built using an Arduino Leonardo and a few supplies from the hardware store. The idea is that whenever the magnet gets close to the hall effect sensor, it reads a value which is translated through the arduino to turn on a light. The faster the tire is rotating the faster the light blinks.
 

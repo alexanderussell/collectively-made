@@ -1,17 +1,14 @@
-<article class="pvx mtl related-posts">
+<div class="pvx mtl related-posts">
   <div class="phm phxl-m phxxl-l pvxs-ns measure">
-    <h1 class="fw4 f6 f6-ns ttu">
+    <h1 class="fw4 f5 f5-ns ttu">
     <a href="/projects.html" class="none black">Other Projects</a></h1>
     <ul class="list pln">
       {% for post in site.related_posts limit: 5 %}
       <li class="pln">
-        <a href="{{ post.url }}" class="none" title="{{post.title}}">
-          {{ post.title }}
-          <span>›</span>
-        </a>
+        <p><a href="{{ post.url }}" class="none" title="{{post.title}}">
+          {{ post.title }} ›</a><span>{{ post.subtitle }}</span></p>
       </li>
       {% endfor %}
     </ul>
   </div>
-</article>
-
+</div>

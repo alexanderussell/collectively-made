@@ -2,59 +2,26 @@
 layout: default
 ---
 
-<!-- <header class="pvx phm pax-m paxl-l bb b--near-white black oh pos-rel bg-near-white">
-  <div class="dt wi-100">
-    <div class="dtc wi-50 v-mid dk-gray">
-      <h1 class="fw6 ttu f5 f2-ns prm-ns mbn">Alexander Russell</h1>
-      <h2 class="fw4 f6 f6-ns ttu">Designer</h2>
-    </div>
-  </div>
-</header> -->
+<!-- {% include _header.html %} -->
+
 <div class="mw8 center">
   <main class="pvx phm pax-m paxl-l">
     <div>
       <p class="f4 f3-m f2-l f2-xl measure lh-copy mw8 mtm">
-        Turning complex ideas into intuitive and beautiful products. Collaborator at <a target="_blank" href="http://www.collectivelymade.com">Collectively Made</a>. Writer for <a target="_blank"href="http://www.collectivelymade.com">Alphabet Town</a>.
+        Turning complex ideas into meaningful and intuitive experiences. Collaborator at <a target="_blank" href="http://www.collectivelymade.com">Collectively Made</a>. Writer for <a target="_blank"href="http://www.collectivelymade.com">Alphabet Town</a>.
       </p>
-      <p class="f5 f4-ns">You can email me at <a href="mailto:alex@collectivelymade.com">alex@collectivelymade.com</a> or find me on <a target="_blank" href="http://twitter.com/alexanderussell">Twitter</a>, <a href="http://github.com/alexanderussell" target="_blank">GitHub</a>, and <a href="http://www.linkedin.com/in/alexanderussell" target="_blank">LinkedIn</a>.</p>
+      <p class="f5 f4-ns">You can email me at <a href="mailto:alex@collectivelymade.com">alex@collectivelymade.com</a> or find me on <a target="_blank" href="http://twitter.com/alexanderussell">Twitter</a>, and <a href="http://www.linkedin.com/in/alexanderussell" target="_blank">LinkedIn</a>.</p>
     </div>
   </main>
 
-  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
-    <h2 class="fw4 f4 f4-ns ttu">Projects</h2>
-    <ul class="list">
-      {% for item in site.data.projects  %}
-        <li>
-          <p><a href="{{ item.url }}">{{ item.title }} ›</a> <span>{{ item.date }}</span></p>
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
+  {% include _professional-work.html %}
 
-  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
-    <h2 class="fw4 f4 f4-ns ttu">Writing</h2>
-    <ul class="list">
-      {% for item in site.posts %}
-      <li>
-        <p><a href="{{ item.url }}">{{ item.title }} ›</a></p>
-      </li>
-      {% endfor %}
-    </ul>
-  </aside>
+  {% include _personal-projects.html %}
 
-  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
-    <h2 class="fw4 f4 f4-ns ttu">Library</h2>
-      {% for item in site.data.library %}
-        <a class="wi-33 wi-20-ns db tc fl none" href="{{ item.url }}" target="_blank">
-          <div class="lib-contain">
-            <img src="/img/library/{{ item.img }}" title style/>
-          </div>
-          <p class="black none db pan man" >{{ item.title }}</p>
-          <small class="gray none tc">{{ item.author }}</small>
-        </a>
-      {% endfor %}
-      <div class="cf"></div>
-  </aside>
+<!-- {% include _writing.html %} -->
+
+  {% include _library.html %}
+
 </div>
 {% include _footer.html %}
 

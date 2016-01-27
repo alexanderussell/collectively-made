@@ -2,6 +2,9 @@
 title: "Yellow Red Wait Green Repeat"
 subtitle: "A Conceptual Book. A Metaphor. A Memoire."
 layout: post
+categories: [projects-featured]
+featured: true
+img: test.png
 ---
 
 Cale's car slowed to a halt and as we sat at the red light he pronounced, "Yellow, red, wait, green, repeat. That's your life. Yellow, red, wait... green, repeat." That phrase has stuck with me for the last two years as I've come to a reoccurringly poignant realization that this traffic light metaphor holds more truth than it doesn't.

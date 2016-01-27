@@ -1,0 +1,10 @@
+<aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
+  <h2 class="fw4 f4 f4-ns ttu">Writing</h2>
+  <ul class="list">
+    {% for post in site.categories.blog %}
+    <li>
+      <p><a href="{{ post.url }}">{{ post.title }} ›</a></p>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>

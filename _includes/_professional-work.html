@@ -1,0 +1,23 @@
+<aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
+  <h2 class="fw4 f4 f4-ns ttu">Professional Work</h2>
+  {% for project in site.categories.work-featured limit: 2 %}
+    {% if project.featured == true %}
+    <div class="wi-50 fl featured prs">
+     <a class="none" href="{{ project.url }}">
+      <img src="/img/work/{{ project.img }}" />
+      <h2 class="black none db pan man fw4 f5 f5-ns">{{ project.title }} ›</h2>
+      <span class="gray none pan tc">{{ project.subtitle }}</span>
+     </a>
+    </div>
+    {% endif %}
+  {% endfor %}
+  <div class="cf pvm"></div>
+  <hr>
+  <ul class="list">
+    {% for project in site.categories.work limit: 8 %}
+      <li>
+        <p><a href="{{ project.url }}">{{ project.title }} ›</a> <span>{{ project.subtitle }}</span></p>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
