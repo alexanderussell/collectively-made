@@ -1,8 +1,9 @@
 ---
 title: "Twitterbots"
-subtitle: "Subtitle placeholder"
+subtitle: "Absurdity and Subtle Profundity"
 layout: post
 categories: [projects]
+tag: "Projects"
 featured: false
 ---
 

@@ -15,9 +15,11 @@
   <hr>
   <ul class="list">
     {% for project in site.categories.projects  %}
+      {% if project.featured == false %}
       <li>
         <p><a href="{{ project.url }}">{{ project.title }} ›</a> <span>{{ project.subtitle }}</span></p>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </aside>

@@ -1,12 +1,14 @@
-- title: CSSgram
-  url: https://github.com/una/CSSgram
-  author: Una
-  img: test.png
+- title: The Death and Life of Great American Cities
+  url: http://amzn.to/1PLWp5c
+  author: Jane Jacobs
+  img: DeathandLife-JJ.jpg
 
-- title: Colour Management with Sass Maps
-  url: http://conormcafee.co.uk/journal/colour-management-with-sass-maps.html
-  author: Conor McAfee
+- title: Demian
+  url: http://amzn.to/1SQzypy
+  author: Herman Hesse
+  img: Demian-HH.jpg
 
-- title: Kimono
-  url: https://kimonolabs.com
-  author: Kimono
+- title: Ender's Game
+  url: http://amzn.to/1QObIcJ
+  author: Orson Scott Card
+  img: Ender-OSC.jpg

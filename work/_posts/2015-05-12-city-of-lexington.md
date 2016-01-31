@@ -1,10 +1,10 @@
 ---
 title: "City of Lexington"
-subtitle: "Reimagining City Government Web presence "
+subtitle: "Reimagining City Government Web Presence "
 layout: post
 categories: [work]
 permalink: /work/lexington
-featured: true
+featured: false
 img: test.png
 ---
 

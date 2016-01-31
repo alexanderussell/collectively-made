@@ -447,11 +447,10 @@ table {
  * and add them in import.scss
  */
 article p {
-  font-family: 'Merriweather', times;
   line-height: 1.6;
   letter-spacing: 0.1px;
   opacity: 0.9;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 article h1,
@@ -459,6 +458,15 @@ article h2,
 article h3, 
 article h4 {
   font-weight: 400;
+}
+
+article blockquote {
+  font-style: italic;
+  border-left: 2px solid #f5f5f5;
+  margin-left: 1rem;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  opacity: 0.7;
 }
 
 a {
