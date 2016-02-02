@@ -687,3 +687,15 @@ section.library {
   height: 485px;
   background-color: #AD9CE9;
 }
+
+.scale:hover {
+  transform: scale(1.5);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.scale-sm:hover {
+  transform: scale(1.1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}

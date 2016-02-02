@@ -2,12 +2,16 @@
   <div class="pvl phm phxl-m phxxl-l v-bottom mtx dib">
 
     <p class="dib">
-      <a class="none dib" href="/">
-        <h1 class="fw6 ttu f5 f3-ns prm-ns mbn">A</h1>
+      <a class="none dib scale" href="/">
+        <h1 class="fw6 ttu f5 f3-ns prm-ns mbn dib">A</h1>
       </a>
-      {% if permalink == /work/ %}
+      {% if page.path contains 'work' %}
       / 
-      <h3 class="dib">{{ post.tags }}</h3>
+      <a class="none black" href="/work"><h4 class="scale-sm pam ttu fw4 dib">Professional Work</h4></a>
+      {% endif %}
+      {% if page.path contains 'projects' %}
+      / 
+      <a class="none black" href="/projects"><h4 class="scale-sm pam ttu fw4 dib">Personal Projects</h4></a>
       {% endif %}
     </p>
   </div>

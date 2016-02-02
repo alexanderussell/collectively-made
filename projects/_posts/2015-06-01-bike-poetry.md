@@ -2,7 +2,7 @@
 title: "Bike Speed Poetry Generator"
 subtitle: "Transfer, Combination, and Recombination"
 layout: post
-categories: [projects-featured]
+category: [projects-featured, projects]
 featured: true
 img: test.png
 permalink: /projects/bike-speed-poetry-generator

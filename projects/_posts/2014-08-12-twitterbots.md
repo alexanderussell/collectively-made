@@ -2,7 +2,7 @@
 title: "Twitterbots"
 subtitle: "Absurdity and Subtle Profundity"
 layout: post
-categories: [projects]
+category: [projects]
 tag: "Projects"
 featured: false
 permalink: /projects/twitterbots

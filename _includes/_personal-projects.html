@@ -1,4 +1,4 @@
-<aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
+
   <h2 class="fw4 f4 f4-ns ttu">Personal Projects</h2>
   {% for project in site.categories.projects-featured limit: 2 %}
     {% if project.featured == true %}
@@ -12,7 +12,7 @@
     {% endif %}
   {% endfor %}
   <div class="cf pvm"></div>
-  <hr>
+  <hr class="line">
   <ul class="list">
     {% for project in site.categories.projects  %}
       {% if project.featured == false %}
@@ -22,4 +22,3 @@
       {% endif %}
     {% endfor %}
   </ul>
-</aside>
