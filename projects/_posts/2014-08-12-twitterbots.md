@@ -5,6 +5,7 @@ layout: post
 categories: [projects]
 tag: "Projects"
 featured: false
+permalink: /projects/twitterbots
 ---
 
 A twitterbot is more-or-less an automated text generator that spews spam, poetry, or interacts with other twitter users. I built my twitterbots, <a href="http://twitter.com/writingassnbot" >@WritingAssnBot</a>  &  <a href="http://twitter.com/MakesTheHeart" >@MakesTheHeart</a>, using Python. 

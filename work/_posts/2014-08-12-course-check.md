@@ -5,7 +5,7 @@ layout: post
 categories: [work-featured]
 featured: true
 img: test.png
-permalink: 
+permalink: /work/course-check
 ---
 
 Main content of your post.

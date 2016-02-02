@@ -1,6 +1,14 @@
 <header>
-  <div class="pvl phm phxl-m phxxl-l v-bottom mtx">
+  <div class="pvl phm phxl-m phxxl-l v-bottom mtx dib">
 
-    <a class="none" href="/"><h1 class="fw6 ttu f5 f3-ns prm-ns mbn">A</h1></a> / <h3>{{ post.tags }}</h3>
+    <p class="dib">
+      <a class="none dib" href="/">
+        <h1 class="fw6 ttu f5 f3-ns prm-ns mbn">A</h1>
+      </a>
+      {% if permalink == /work/ %}
+      / 
+      <h3 class="dib">{{ post.tags }}</h3>
+      {% endif %}
+    </p>
   </div>
 </header>

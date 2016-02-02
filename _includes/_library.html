@@ -1,13 +1,17 @@
 <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
   <h2 class="fw4 f4 f4-ns ttu">Library</h2>
+    <section class="library">
     {% for item in site.data.library %}
-      <a class="wi-33 wi-20-ns db tc fl none pas" href="{{ item.url }}" target="_blank">
+      <a class="wi-50 wi-33-m wi-20-l db tc fl none mts" href="{{ item.url }}" target="_blank">
         <div class="lib-contain">
-          <img src="/img/library/{{ item.img }}" title style/>
+          <img src="/img/library/{{ item.img }}" title style="max-height:400px;"/>
         </div>
+        <div class="pas">
         <p class="black none db pan man" >{{ item.title }}</p>
         <small class="gray none tc">{{ item.author }}</small>
+        </div>
       </a>
     {% endfor %}
     <div class="cf"></div>
+    </section>
 </aside>

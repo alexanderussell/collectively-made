@@ -8,13 +8,13 @@ img: test.png
 permalink: /work/wearevital
 ---
 
-The description was something along the lines of:
-
 > "We Are Vital is like Ken Robinson and the Renters Association is Obama's Education plan"
 
+We determined that most users are going to be new users as opposed to returning. So the most appropriate place for a user to land when accessing the site was the page that explained what We Are Vital actually is. The copy from the 'about' page became the home page and the acutal copy was used as navigation into the site.
 
+The site's pages are pretty shallow. Every interior page has a specific goal of giving the user access to resources to stay informed or participate. All of the design is stripped 
 
-it was easy  Hand-drawn because the neighborhood is hand-drawn.
+The site's aesthetics fall under the genre of 'urban sketching'. I had long been experimenting with  Hand-drawn because the neighborhood is hand-drawn.
 
 The site was built using Jekyll in order to house it on Github Pages. There are few benefits to this:
 
