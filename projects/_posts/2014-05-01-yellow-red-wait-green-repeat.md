@@ -20,5 +20,5 @@ The eventual change of words from their colors mimics that of the stroop effect 
 
 As the two stories parallel each other they move into separate planes but return to each other over and over again. The reader is challenged to follow the visual narrative, the temporal narrative, the conceptual narrative, the color narrative, and the textual narrative all at the same time.
 
-The book exists very much as a conceptual piece and can be read in it's entirety here on issu and purchased/delivered from my blurb page. Enjoy.
+The book exists very much as a conceptual piece and can be read in it's entirety here on <a href="http://issuu.com/alexanderussell/docs/yellowredwaitgreenrepeat/1" target="_blank">issu</a> and purchased/delivered from <a href="http://www.blurb.com/b/5162606-yellow-red-wait-green-repeat" target="_blank" >my blurb page.</a> Enjoy.
 

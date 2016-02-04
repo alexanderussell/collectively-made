@@ -503,6 +503,14 @@ footer a:hover {
   color:#f05e5e;
 }
 
+.intro a {
+  text-decoration: none;
+}
+
+.intro a:hover {
+  border-bottom: 2px solid;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -535,7 +543,17 @@ footer a:hover {
 }
 
 .list a:hover {
-  color:#aaa;
+  color:#f05e5e;
+  text-decoration: underline;
+}
+
+.featured h2 {
+  font-size: 120%;
+}
+
+.featured:hover h2 {
+  text-decoration: underline;
+  color:#f05e5e;
 }
 
 .lib-contain {
@@ -559,16 +577,16 @@ footer a:hover {
 }
 
 section.library {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -mx-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0 auto 3rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -mx-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto 3rem;
 }
 
 .hrd {
@@ -692,6 +710,10 @@ section.library {
   transform: scale(1.5);
   -webkit-transition: all .2s;
   transition: all .2s;
+}
+
+.twitter-tweet {
+  margin: 0 auto !important;
 }
 
 .scale-sm:hover {

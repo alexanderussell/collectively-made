@@ -8,6 +8,4 @@ img: test.png
 permalink: /work/course-check
 ---
 
-Main content of your post.
-
-Hand-drawn because the neighborhood is hand-drawn.
+Course Check is a small proof-of-concept built for the ITS department at the University of Nebraska - Lincoln.
