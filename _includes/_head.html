@@ -35,25 +35,5 @@
   <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina-precomposed.png">
 
   <script src="/js/jquery-2.1.1.js"></script>
-  <script>
-    $(function() {
-      // Thanks to Mark Avery
-      // http://stackoverflow.com/questions/8191015/how-do-i-lay-out-my-content-divs-in-a-similar-manner-to-facebook-timeline
-      var adjustArticleHeights = (function () {
-        var leftColumnHeight = 0,
-          rightColumnHeight = 0,
-          $articles = $('.thumb');
-        for (var i = 0; i < $articles.length; i++) {
-          // This just adds random heights to articles
-          
-          if (leftColumnHeight > rightColumnHeight) {
-            rightColumnHeight += $articles.eq(i).addClass('fr').outerHeight(true);
-          } else {
-            leftColumnHeight += $articles.eq(i).outerHeight(true);
-          }
-        }
-        return $articles;
-      })();
-    });
-  </script>
+  <script src="/js/typed.js"></script>
 </head>

@@ -721,3 +721,39 @@ section.library {
   -webkit-transition: all .2s;
   transition: all .2s;
 }
+
+figure img {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+figcaption {
+  font-size: 70%;
+  font-style: italic;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.red {
+  color:#f05e5e;
+}

@@ -2,11 +2,31 @@
 layout: default
 ---
 
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["a Designer.", "a Developer.", "an Artist.", "a Writer.", "a Musician.", "a Teacher."],
+        typeSpeed: 100,
+        // backspacing speed
+        backSpeed: 0,
+        // time before backspacing
+        backDelay: 2000,
+        // loop
+        loop: true,
+        // false = infinite
+        loopCount: false
+      });
+  });
+</script>
+
 
 <div class="mw8 center">
   <main class="pvx phm pax-m paxl-l">
     <div class="intro">
       <p class="f1 f1-m f2-l f2-xl measure lh-copy mw8 mtm">
+        <b class="red">Alexander Russell</b> is 
+        <em class="element" style="padding-bottom: 0;margin-bottom:0;"></em>
+        <br>
         Turning complex ideas into meaningful and intuitive experiences. Collaborator at <a target="_blank" href="http://www.collectivelymade.com">Collectively Made</a>. Activist for <a href="http://www.wearevital.org/">We Are Vital</a>. <!-- Writing in <a target="_blank" href="">Alphabet Town</a>. -->
       </p>
       <p class="f5 f4-ns">You can email me at <a href="mailto:alex@collectivelymade.com">alex@collectivelymade.com</a> or find me on <a target="_blank" href="http://twitter.com/alexanderussell">Twitter</a> and <a href="http://www.linkedin.com/in/alexanderussell" target="_blank">LinkedIn</a>.</p>
@@ -26,4 +46,3 @@ layout: default
 
 </div>
 {% include _footer.html %}
-
