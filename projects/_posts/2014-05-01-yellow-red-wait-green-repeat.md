@@ -4,7 +4,7 @@ subtitle: "A Conceptual Book. A Metaphor. A Memoire."
 layout: post
 category: [projects-featured]
 featured: true
-img: test.png
+img: YRWGR.jpg
 permalink: /projects/yellow-red-wait-green-repeat
 ---
 
