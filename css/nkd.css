@@ -723,7 +723,7 @@ section.library {
 }
 
 figure img {
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+/*  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);*/
   width: 100%;
 }
 
@@ -818,17 +818,23 @@ figcaption {
   text-decoration: none !important;
 }
 .media-card>.content>.header {
-  font-size: 1.28571429em;
-  margin-top: -.21425em;
-  line-height: 1.2857em;
+  font-size: 2em;
+  margin-top: .2em;
+  line-height: 1.3em;
+  font-weight: 300;
 }
 .media-card>.content>.meta {
   clear: both;
-  color: rgba(0,0,0,.68);
+  font-size: 1.4em;
+  font-weight: 300;
+}
+.media-card>.content>.snip {
+  font-size: 1em;
 }
 .media-card>.content>a.link {
   position: absolute;
   bottom:10px;
   right:15px;
+  color: rgba(0,0,0,.48);
 }
 
