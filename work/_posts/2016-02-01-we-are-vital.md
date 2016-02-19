@@ -10,11 +10,11 @@ permalink: /work/wearevital
 
 > "We Are Vital is like Ken Robinson and the Renters Association is Obama's Education plan"
 
-{screenshot}
+<!-- {screenshot} -->
 
 We determined that most users are going to be new users as opposed to returning. So the most appropriate place for a user to land when accessing the site was the page that explained what We Are Vital actually is. The copy from the 'about' page became the home page and the acutal copy was used as navigation into the site.
 
-{post its}
+<!-- {post its} -->
 
 The site's linearity is pretty shallow. Every interior page has a specific goal of giving the user access to resources to stay informed or participate.
 
@@ -28,11 +28,11 @@ The site was built using Jekyll in order to house it on Github Pages. There are 
 
 Along with the conceptualization and front-end implementation of the site, I used this as an opportunity to explore my own fascination with the neighborhood I am currently living in. I spent many mornings in Cultiva, DaVincis, The Mexican Bakery, on the stoop, or on a walk. I experimented with different ways of sketching the characters of the neighborhood. 
 
-{sketch}
+<!-- {sketch} -->
 
 It was very intentional to want to display people on the site. We Are Vital is all about people. While the city is focusing so much on the buildings of the neighborhood, We Are Vital is examining the people inside those buildings. 
 
-{sketch}
+<!-- {sketch} -->
 
 More than just the people, I wanted the imagery to feel very hand drawn. A heavy handed approach meant that the imperfections, the human-ness of the neighborhood is apparant. It also provided a unique opportunity to experiment with color. The neighborhood is indeed colorful but using overtly bright and vibrant colors we could extend this metaphor into the artwork.
 
