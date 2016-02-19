@@ -18,7 +18,7 @@ Before we began this project, Lexington's existing site was being bogged down by
 We talked with government employees to understand the full scope of what they needed the site to accomplish. Lexington was most concerned with citizens being able to use their site to easily find information that concerned their abilies to prosper. They prioritized information about rezoning land, starting a business, and paying bills online to department bios, staff directories, and historical information. prioritization was key in the new design.
 
 <div class="center tc">
-<img style="max-width:500px;" src="/img/work/Lex-1.jpg" />
+<img style="max-width:500px;width:100%;" src="/img/work/Lex-1.jpg" />
 </div>
 
 The navigation was simplified and reduced. We worked with Lexington officials to merge pages and remove pages wherever possible. Below the navigation we introduced two secions: Find Info On... and I Want To...
