@@ -4,7 +4,7 @@ subtitle: "Crafting a Digital Space for a Movement"
 layout: post
 categories: [work-featured]
 featured: true
-img: test.png
+img: WIP.png
 permalink: /work/wearevital
 ---
 

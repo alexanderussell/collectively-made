@@ -4,7 +4,7 @@ subtitle: ""
 layout: post
 category: [projects-featured, projects]
 featured: true
-img: test.png
+img: WIP.png
 permalink: /projects/bike-speed-poetry-generator
 
 ---
