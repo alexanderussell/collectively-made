@@ -44,9 +44,29 @@ layout: default
   {% include _personal-projects.html %}
   </aside>
 
-<!-- {% include _writing.html %} -->
+<!--
+  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;"> 
+  {% include _writing.html %} 
+  </aside>
+  -->
 
-  {% include _library.html %}
+  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
+  <a href="/library"class="none dk-gray"><h2 class="fw4 f4 f4-ns ttu">Library</h2></a>
+    <section class="library">
+    {% for item in site.data.library limit: 10 %}
+      <a class="wi-50 wi-33-m wi-20-l db tc fl none mts" href="{{ item.url }}" target="_blank">
+        <div class="lib-contain">
+          <img src="/img/library/{{ item.img }}" title style="max-height:400px;"/>
+        </div>
+        <div class="pas">
+        <p class="black none db pan man" >{{ item.title }}</p>
+        <small class="gray none tc">{{ item.author }}</small>
+        </div>
+      </a>
+    {% endfor %}
+    <div class="cf"></div>
+    </section>
+</aside>
 
 </div>
 {% include _footer.html %}
