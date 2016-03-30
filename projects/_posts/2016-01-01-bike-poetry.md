@@ -9,7 +9,7 @@ permalink: /projects/bike-speed-poetry-generator
 ---
 <figure class="img-left">
 <img src="/img/projects/OpenBack.JPG" />
-<figcaption>A light switch socket retrofitted to house the Arduino, battery, and circuit board.</figcaption>
+<figcaption>A light switch socket retrofitted to house the Arduino.</figcaption>
 </figure>
 
 I set out to create some kind of system that allowed me to measure the speed of my bike, not with numbers or miles per hour, rather with some kind of senuous indicator. The first iteration used a small LED that was wired up to some sensors and a microprocessor. The original intent was to provide visual feedback to the cyclist, similar to how a car operator can view the spedometer. It began to feel unimportant to be able to view speed this way since you have a lot of other human senses giving you an idea of how fast you are moving while on a bike. Subsequent iterations move the blinking light to the ends of the drop-down handlebars in order for drivers to see the cyclist better and possibly be able to gauge the speed a cyclist is moving at. Eventually, I replaced the light entirely with a poetry generator. This new un-functional design direction was inspired by an experiment in innovation; recombining two ideas to create something new, perhaps more artistic than useful. I just couldn't escape the idea of recording speed with poetry.
