@@ -22,7 +22,7 @@ The LED originally was in the center of the handle bars, facing the rider so she
 
 While experimenting with measuring speed, I was also creating a very archaic poetry generator. Using a random pattern & word picking algorithm, users would see lines of poetry displayed at the push of a button. 
 
-<img src="/img/projects/poetrygenerator.png" />
+<img src="/img/projects/poetryGenerator.png" />
 
 The decision to merge these two creations came pretty naturally. The random pattern algorithm was replaced with the value indicator the speed generator produces. In other words, the speed of your bike wheel determines the ridiculousness of the poetry.
 
