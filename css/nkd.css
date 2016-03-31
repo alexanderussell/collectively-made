@@ -849,3 +849,14 @@ figure.img-left {
     max-height: 394px;
 }
 
+@media (max-width: 600px) {
+  figure.img-left {
+    margin-left: 0;
+    float:none;
+  }
+  figure.img-left img {
+    max-width: 100%;
+    max-height: auto;
+  }
+}
+
