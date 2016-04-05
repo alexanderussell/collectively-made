@@ -26,7 +26,7 @@ The site was built using Jekyll in order to house it on Github Pages. There are 
 
 2. Creating a Github organization allows us to offer a space for other programmers to utilize their skills in building things for the community or just building things in the community. It's a space for us.
 
-3. Jekyll is lightweight. The We Are Vital site is designed to deliver information and direct people to pertinent pages or newsletters to keep them informed. Static pages and minimal stylesheets equate to quick loadtimes which means visitors can get information they need effectively.
+3. Jekyll is lightweight. The We Are Vital site is designed to deliver information and direct people to pertinent pages or newsletters to keep them informed. Static pages and minimal stylesheets equate to quick loadtimes which means visitors can get information they need without having to load large CSS files, which can either weigh on loadtimes or use more phone data.
 
 Along with the conceptualization and front-end implementation of the site, I used this as an opportunity to explore my own fascination with the neighborhood I am currently living in. I spent many mornings in Cultiva, DaVincis, The Mexican Bakery, on the stoop, or on a walk. I experimented with different ways of sketching the characters of the neighborhood. 
 
