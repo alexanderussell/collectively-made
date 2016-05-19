@@ -1,10 +1,10 @@
 ---
 title: "Market Interactive"
-subtitle: "New Brand, New Site, New strategy"
+subtitle: "New brand, New site, New strategy"
 layout: post
-categories: [work]
-featured: true
-permalink: /work/madebymarket
+categories: projects
+tag: Branding & Web Design
+permalink: /projects/madebymarket
 published: false
 ---
 

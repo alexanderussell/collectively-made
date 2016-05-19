@@ -1,0 +1,18 @@
+{% if site.mailchimp %}
+<!-- MailChimp Email Form -->
+<div class="mtl center">
+  <h3 class="l">You can always read my monthly articles, where I write about the future, creating for yourself, and my best processes for work and play.</h3>
+  <form class="email-signup" action="http://twitter.us2.list-manage.com/subscribe/post?u={{ site.mailchimp.user-id }}&amp;id={{ site.mailchimp.list-id }}" method="post" novalidate>
+    <div class="field-group fl">
+      <input type="email" placeholder="Your email address..." name="EMAIL">
+    </div>
+    
+    <!-- bot signup protection - real people won't fill this in -->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_{{ site.mailchimp.user-id }}_{{ site.mailchimp.list-id }}" tabindex="-1" value=""></div>
+      
+      <input type="submit" value="Join the List" name="subscribe" class="button fl">
+      <div class="cf"></div>
+      <small class="lt-gray">No spam. You can unsubscribe at any time.</small>
+  </form>
+</div>
+{% endif %}

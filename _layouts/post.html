@@ -1,17 +1,28 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-  {% include _head.html %}
-  <body>
-    {% include _header.html %}
-    <div class="phm phxl-m phxxl-l pvxs-ns measure">
-      <h1 class="fw4 f1 f1-m f1-l f1-xl" >{{ page.title }}</h1>
-      <h2 class="fw4 f6 f8-ns ttu">{{ page.subtitle }}</h2>
-    </div>
-    <article class="phm phxl-m phxxl-l pvxs-ns measure">
+---
+layout: default
+---
+<main class="mw7 center paxl-ns pvl pam">
+  {% include _header.html %}
+  <div class="intro">
+    <h1 class="f2 f1-m f1-l f1-xl measure lh-title ptm b" style="margin-bottom:0;">{{ page.title }}</h1>
+    <p class="f3 f3-s f3-m f3-l f3-xl measure lh-copy fw1" style="margin-top:0;">{{ page.subtitle }}</p>
+  </div>
+  <div class="line tc"></div>
+  <article class="measure lh-copy">
     {{ content }}
     <br>
-    </article>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="AlexandeRussell">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </article>
+  {% if page.categories contains "projects" %}
     {% include _related.html %}
-  </body>
-  {% include _footer.html %}
-</html>
+  {% endif %}
+
+  {% if page.categories contains "articles" %}
+    {% include _related_a.html %}
+  {% endif %}
+  <br>
+
+</main>
+{% include _footer.html %}
+

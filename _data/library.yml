@@ -1,3 +1,8 @@
+- title: Program or be Programmed
+  url: http://amzn.to/1WTLnvZ
+  author: Douglas Rushkoff
+  img: program-or-be-programmed.jpg
+
 - title: Interaction of Color
   url: http://amzn.to/1STAJ7C
   author: Josef Albers
@@ -68,29 +73,36 @@
   author: Jane Jacobs
   img: DeathandLife-JJ.jpg
 
+- title: "Evicted: Poverty and Profit in American Cities"
+  url: http://amzn.to/24KKWKD
+  author: Matthew Desmond
+  img: evicted.jpg
+
 - title: Invisible Cities
   url: http://amzn.to/1Q2BqFq
   author: Italo Calvino
   img: invisiblecities.jpg
 
-# - title: A Supposedly Fun Thing I'll Never Do Again
-#   url: http://amzn.to/1PQ76DO
-#   author: David Foster Wallace
-#   img: 
+- title: A Supposedly Fun Thing I'll Never Do Again
+  url: http://amzn.to/1PQ76DO
+  author: David Foster Wallace
+  img: A-supposedly-fun-thing-first-edition-cover.png
 
-# - title: Demian
-#   url: http://amzn.to/1SQzypy
-#   author: Herman Hesse
-#   img: Demian-HH.jpg
+- title: Demian
+  url: http://amzn.to/1SQzypy
+  author: Herman Hesse
+  img: Demian-HH.jpg
 
-# - title: "Ender's Game"
-#   url: http://amzn.to/1QObIcJ
-#   author: Orson Scott Card
-#   img: Ender-OSC.jpg
+- title: "Ender's Game"
+  url: http://amzn.to/1QObIcJ
+  author: Orson Scott Card
+  img: Ender-OSC.jpg
 
-# - title: Wind Up Bird Chronicle
-#   url: http://amzn.to/1STCku2
-#   author: Haruki Murakami
-#   img: 
+- title: Wind Up Bird Chronicle
+  url: http://amzn.to/1STCku2
+  author: Haruki Murakami
+  img: wind-up.jpg
+
+
 
 

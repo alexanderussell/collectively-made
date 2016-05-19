@@ -1,8 +1,8 @@
 <div class="ptxl related-posts">
-  <h2 class="f3 f3-ns b"><a href="/projects/" class="none black">Other Projects</a></h2>
+  <h2 class="f3 f3-ns b"><a href="/articles/" class="none black">Other Articles</a></h2>
   <ul class="list pln">
-    {% for post in site.related_posts limit: 6 %}
-      {% unless post.categories contains "articles" %}
+    {% for post in site.related_posts limit: 4 %}
+      {% unless post.categories contains "projects" %}
       <li>
         <a class="none" href="{{ post.url }}">
           <span class="di b ttu">{{ post.title }} </span>&nbsp; - &nbsp;<span class="b lt-gray ttu"> {{ post.tag }}</span>

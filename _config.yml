@@ -10,11 +10,11 @@
 # <title> {{site.name}} </title>
 # ============================================================
 name: "Alexander Russell"
-title: "Alexander Russell | Designer"
+title: "Alexander Russell"
 
 # Populates the meta description for the site. Should be under 150 characters for best SEO results.
 # ============================================================
-description: "Alexander Russell is a Desginer who can't stop. "
+description: "Alexander Russell is a Desginer who is trying to create simple and meaningful things. "
 
 # Owner (organization or individual) of site content - You'll want to change this from mrmrs :)
 # ============================================================
@@ -28,6 +28,10 @@ url: "http://alexanderussell.org"
 # ============================================================
 future: true
 
+mailchimp:
+  user-id: REPLACEME
+  list-id: 0b7dc58633
+
 # "A list of directories (including trailing slash) and files to exclude from the conversion"
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
@@ -40,7 +44,7 @@ exclude: [README.md, Rakefile, node_modules]
 
 # Style of permalinks
 # ============================================================
-permalink: pretty
+permalink: none
 
 markdown: kramdown
 highlighter: rouge
@@ -51,6 +55,4 @@ highlighter: rouge
 # /:month-:day-:year/:title.html/                 => 04-29-2009/slap-chop.html
 # /blog/:year/:month/:day/:title                  => /blog/2009/04/29/slap-chop/index.html
 
-# Uncomment if you have pygments installed. Used for code syntax highlighting.
-# If you're not doing syntax highlighting you can delete this.
-# highlighter: pygments
+

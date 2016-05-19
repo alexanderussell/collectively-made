@@ -1,6 +1,5 @@
 
-  <a class="none dk-gray" href="/projects"><h2 class="fw4 f4 f4-ns ttu">Personal Projects</h2></a>
-  {% for project in site.categories.projects-featured limit: 2 %}
+  <!-- {% for project in site.categories.projects-featured limit: 2 %}
     {% if project.featured == true %}
     <div class="wi-50 fl featured prs">
      <a class="none" href="{{ project.url }}">
@@ -12,13 +11,11 @@
     {% endif %}
   {% endfor %}
   <div class="cf pvm"></div>
-  <hr class="line">
+  <hr class="line"> -->
   <ul class="list">
     {% for project in site.categories.projects  %}
-      {% if project.featured == false %}
       <li>
         <p><a href="{{ project.url }}">{{ project.title }} ›</a> <span>{{ project.subtitle }}</span></p>
       </li>
-      {% endif %}
     {% endfor %}
   </ul>

@@ -1,11 +1,10 @@
 ---
 title: "City of Lexington"
-subtitle: "Reimagining City Government Web Presence "
+subtitle: "Re-imagining and re-architecting a City Government web presence "
 layout: post
-categories: [work]
-permalink: /work/lexington
-featured: false
-img: 
+categories: projects
+tag: Web Design & Development
+permalink: /projects/lexington
 ---
 
 <figure>
@@ -13,9 +12,16 @@ img:
   <figcaption>The new City of Lexington website at <a href="http://cityoflex.com" target="_blank">cityoflex.com</a></figcaption>
 </figure>
 
+# My Role
+
+While working with <a href="http://madebymarket.com" target="_blank">Market Interactive</a>, we were approached by the City of Lexington who had compiled a list of grievances about their site. I was responsible for the full stack of design for the project- identifying problems, researching the user flow, redesigning the interface, and implementing the front-end code.
+
+
+# The Challenge
+
 Before we began this project, Lexington's existing site was being bogged down by hundreds of pages and an overwhelmed navigation. Many items in the navigation appeared multiple times throughout different categories. The site was complicated and slow. Users couldn't find information because of a broken classification system.
 
-We talked with government employees to understand the full scope of what they needed the site to accomplish. Lexington was most concerned with citizens being able to use their site to easily find information that concerned their abilies to prosper. They prioritized information about rezoning land, starting a business, and paying bills online to department bios, staff directories, and historical information. prioritization was key in the new design.
+We talked with government employees to understand the full scope of what they needed the site to accomplish. Lexington was most concerned with citizens being able to use their site to easily find information that concerned their abilies to prosper. They prioritized information about rezoning land, starting a business, and paying bills online to department bios, staff directories, and historical information. Prioritization was key in the new design.
 
 <div class="center tc">
 <img style="max-width:500px;width:100%;" src="/img/work/Lex-1.jpg" />

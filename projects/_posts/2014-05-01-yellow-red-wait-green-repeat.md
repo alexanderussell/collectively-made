@@ -2,9 +2,8 @@
 title: "Yellow Red Wait Green Repeat"
 subtitle: "A Conceptual Book. A Metaphor. A Memoire."
 layout: post
-category: [projects-featured]
-featured: true
-img: YRWGR.jpg
+category: projects
+tag: Book Design
 permalink: /projects/yellow-red-wait-green-repeat
 ---
 

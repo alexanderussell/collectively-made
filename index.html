@@ -1,69 +1,59 @@
 ---
 layout: default
+title: 
+permalink: /
 ---
 
 <script>
   $(function(){
-      $(".element").typed({
-        strings: ["a Designer.", "a Developer.", "an Artist.", "a Writer."],
-        typeSpeed: 100,
-        // backspacing speed
-        backSpeed: 0,
-        // time before backspacing
-        backDelay: 2000,
-        // loop
-        loop: true,
-        // false = infinite
-        loopCount: false
-      });
+    $(".element").typed({
+      strings: ["a designer", "a developer", "an artist", "a writer"],
+      typeSpeed: 100,
+      // backspacing speed
+      backSpeed: 0,
+      // time before backspacing
+      backDelay: 2000,
+      // loop
+      loop: true,
+      // false = infinite
+      loopCount: false
+    });
   });
 </script>
 
+<main class="mw7 center paxl-ns pvl pam">
+  {% include _header.html %}
+  <div class="intro">
+    <h1 class="f2 f1-m f1-l f1-xl measure lh-title ptm b">
+      <b>Alexander</b> is 
+      <em class="element" style="padding-bottom: 0;margin-bottom:0;"></em>
+      <noscript>
+        <em>a Designer</em>
+      </noscript>
+      <br>
+      who wants to work with you. <a class="curl" href="mailto:alex@collectivelymade.com">↬</a>
+    </h1>
+    <h2 class="f3 f3-m f3-l f3-xl measure lh-subtitle l">
+    Looking to design a <span class="highlight">digital product</span>?
+      <br>
+    Need a <span class="highlight">website</span> to attract business?
+      <br>
+    Want to create a <span class="highlight">proof-of-concept / prototype</span>?
+    </h2>
+    <p class="f4 f4-s f4-m f4-l f4-xl measure lh-copy pbl">
+    I partner with startups, small businesses, and non-profits to re-think design strategies or invent new ones. I've designed &amp; implemented solutions that have helped clients <a href="/projects/course-check">save time,</a> <a href="/projects/lexington">save money,</a> and <a href="/projects/twitterbots">provide delight.</a>
+    <br>
+    <br>
+    I also co-operate a research and design collective called <a target="_blank" href="http://www.collectivelymade.com">Collectively Made</a> (We're currently building a Food Computer). 
+    <!-- I also answer questions that nobody asked in the pocast: <a target="_blank" href="http://back2bacteria.com">Back to Bacteria.</a> -->
+    <br>
+    <br>
+    <span class="f5"> You can email me at <a href="mailto:alex@collectivelymade.com">alex@collectivelymade.com</a> or find me on <a target="_blank" href="http://twitter.com/alexanderussell">Twitter</a>.</span></p>
+  </div>
 
-<div class="mw8 center">
-  <main class="pvx phm pax-m paxl-l">
-    <div class="intro">
-      <p class="f2 f1-m f2-l f2-xl measure lh-copy mw8 mtm">
-        <b class="red">Alexander Russell</b> is 
-        <em class="element" style="padding-bottom: 0;margin-bottom:0;"></em>
-        <noscript>
-          <em>a Designer.
-          </em>
-        </noscript>
-        <br>
-        Turning complex ideas into meaningful and intuitive experiences. Collaborator at <a target="_blank" href="http://www.collectivelymade.com">Collectively Made</a>. <!-- Activist for <a href="http://www.wearevital.org/">We Are Vital</a>. -->
-      </p>
-      <p class="f5 f4-ns">You can email Alex at <a href="mailto:alex@collectivelymade.com">alex@collectivelymade.com</a> or find him on <a target="_blank" href="http://twitter.com/alexanderussell">Twitter</a> and <a href="http://www.linkedin.com/in/alexanderussell" target="_blank">LinkedIn</a>.</p>
-    </div>
-  </main>
 
-  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
-  {% include _professional-work.html %}
-  </aside>
-  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
-  {% include _personal-projects.html %}
-  </aside>
-  <!-- <aside class="pvl phm pax-m paxl-l" style="padding-top:0;"> 
-  {% include _writing.html %} 
-  </aside> -->
 
-  <aside class="pvl phm pax-m paxl-l" style="padding-top:0;">
-  <a href="/library"class="none dk-gray"><h2 class="fw4 f4 f4-ns ttu">Library</h2></a>
-    <section class="library">
-    {% for item in site.data.library limit: 10 %}
-      <a class="wi-50 wi-33-m wi-20-l db tc fl none mts" href="{{ item.url }}" target="_blank">
-        <div class="lib-contain">
-          <img src="/img/library/{{ item.img }}" title style="max-height:400px;"/>
-        </div>
-        <div class="pas">
-        <p class="black none db pan man" >{{ item.title }}</p>
-        <small class="gray none tc">{{ item.author }}</small>
-        </div>
-      </a>
-    {% endfor %}
-    <div class="cf"></div>
-    </section>
-</aside>
-
-</div>
+</main>
 {% include _footer.html %}
+
+

@@ -7,3 +7,4 @@ gem "rouge"
 gem "redcarpet"
 gem "pretty"
 gem "json"
+gem 'jemoji'
