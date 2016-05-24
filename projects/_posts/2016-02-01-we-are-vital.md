@@ -1,13 +1,13 @@
 ---
 title: "We Are Vital"
-subtitle: "Crafting a Digital Space for a Movement"
+subtitle: "Crafting a Digital Space for a Movement; a Current WIP"
 layout: post
 categories: projects
 tag: Web Design & Development
 permalink: /projects/wearevital
 ---
 
-<a href="http://wearevital.org" target="_blank" >We Are Vital</a> is a grassroots neighborhood association. In early 2015, donor associations around the city teamed up with land developers and started an effort to rebrand a neighborhood in preparation to begin massive redevelopment in the area. We Are Vital formed from a group of concerned residents who wanted to maintian a voice for the neighborhood.
+<a href="http://wearevital.org" target="_blank" >We Are Vital</a> is a grassroots neighborhood association. In mid 2015, donor associations around the city teamed up with land developers and started an effort to rebrand a neighborhood in preparation to begin massive redevelopment in the area. We Are Vital formed from a group of concerned residents who wanted to maintian a voice for the neighborhood.
 
 As members of the group, we wanted to create a online space for members and interested parties alike to find information. The website acts as a digital presence for the association.
 

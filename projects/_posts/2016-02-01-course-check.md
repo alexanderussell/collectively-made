@@ -5,6 +5,7 @@ layout: post
 categories: projects
 tag: Product & UI Design
 permalink: /projects/course-check
+carousel: true
 ---
 
 What happens when a proof-of-concept prototype becomes as useful as working software? 
@@ -23,12 +24,17 @@ The ITS department is planning to undergo a university-wide transition from blac
 
 Most of our background has been in web-based technology so initial ideas were: set up a site professors could upload their course files to and the system would respond by listing the problem files. Course files can be very large sometimes, which meant uploading several gigabytes could be a very problematic experience. We also questioned the availability of server space we would have access to, again, given how large these files can get and how many faculty members are going to be checking their courses. 
 
+<div class="carousel-single">
+    <div>
+        <img class="carousel-images" src="../img/work/coursecheck-sketch.png">
+    </div>
+</div>
+
 Insights from our discovery work indicated many areas where a web-based solution was rather inelegant and created more issues than it solved.
 
 During this investigation phase, we were writing and testing scripts that could run through a course file and flag certain file types/file names. We were running these scripts locally on an example file, which led us to a conclusion: If we made this into a Desktop app, there would be no need to download anything, we just needed the user to identify the file they wanted the system to check. 
 
 Enter <a href="electron.atom.io" target="_blank">electron</a>; A way in which we could make a cross platform desktop application using the web technologies we were already proficent in. An app that ran locally on the user's machine removed the unknowns we were having about users' internet connectivity. It also saved us from having to ensure the app would work on (almost) every modern web-browser (some professors are still on IE 6 😭). 
-
 
 # The Solution
 

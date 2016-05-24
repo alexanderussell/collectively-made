@@ -7,10 +7,7 @@ tag: Web Design & Development
 permalink: /projects/lexington
 ---
 
-<figure>
-  <img src="/img/work/Lex-3.png" alt="City of Lexington Website">
-  <figcaption>The new City of Lexington website at <a href="http://cityoflex.com" target="_blank">cityoflex.com</a></figcaption>
-</figure>
+<img src="/img/work/city-of-lex.png" />
 
 # My Role
 
@@ -21,19 +18,34 @@ While working with <a href="http://madebymarket.com" target="_blank">Market Inte
 
 Before we began this project, Lexington's existing site was being bogged down by hundreds of pages and an overwhelmed navigation. Many items in the navigation appeared multiple times throughout different categories. The site was complicated and slow. Users couldn't find information because of a broken classification system.
 
+# The Approach
+
 We talked with government employees to understand the full scope of what they needed the site to accomplish. Lexington was most concerned with citizens being able to use their site to easily find information that concerned their abilies to prosper. They prioritized information about rezoning land, starting a business, and paying bills online to department bios, staff directories, and historical information. Prioritization was key in the new design.
 
-<div class="center tc">
-<img style="max-width:500px;width:100%;" src="/img/work/Lex-1.jpg" />
-</div>
+# The Design
+
+I originally mocked together a concept for our proposal to Lexington. These mocks aimed to portray a more modern aesthetic as well as outline our intentions to prioritize features like an interactive map, a question box, updates on city happenings. 
+
+<img  src="/img/work/Lex-1.jpg" />
+
+We broke down the site by creating a catalogue of all the current pages on their site. Some topics like "Airport" had 3 separate pages in 3 different categories but all used the same content. This phenomena alone led to a lot of navigation bloat so that became our first goal.
 
 The navigation was simplified and reduced. We worked with Lexington officials to merge pages and remove pages wherever possible. Below the navigation we introduced two secions: Find Info On... and I Want To...
+
+<figure>
+  <img style="box-shadow: 0px 2px 15px rgba(0,0,0,0.2);" src="/img/work/Lex-3.png" alt="City of Lexington Website">
+  <figcaption>The new City of Lexington website at <a href="http://cityoflex.com" target="_blank">cityoflex.com</a></figcaption>
+</figure>
 
 Each section displays, in order of popularity, pages for those seeking info (available building sites, meeting agendas and minutes) and pages for those seeking to accomplish a task (pay a bill, fill out a form). We observed analytics as the site launched to determine which pages users were seeking most often.
 
 <figure>
 <img src="/img/work/Lex-2.png" />
 </figure>
+
+The other major improvement we made was in content layout and CMS structure. We built our own CMS that allowed officials to log in, edit pages, upload meeting agendas/minutes, post articles & events.
+
+
 
 Another important capability that the site needed to have was accessibilty for the blind, hard-of-seeing, and English-as-second-language. We used google's translate functionality to provide options for native spainish speakers. We also provided places for images provide alt tags and captions so that blind users have the same experience when seeking information. 
 
@@ -42,5 +54,8 @@ Being able to print information, forms, or meeting notes was another important f
 <figure>
 <img src="/img/work/Lex-4.png" />
 </figure>
+
+
+
 
 <a href="http://cityoflex.com" target="_blank" >See the City of Lexington's website at cityoflex.com</a>
