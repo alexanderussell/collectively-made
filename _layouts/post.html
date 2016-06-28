@@ -1,28 +1,29 @@
 ---
 layout: default
 ---
-<main class="mw7 center paxl-ns pvl pam">
-  {% include _header.html %}
-  <div class="intro">
-    <h1 class="f2 f1-m f1-l f1-xl measure lh-title ptm b" style="margin-bottom:0;">{{ page.title }}</h1>
-    <p class="f3 f3-s f3-m f3-l f3-xl measure lh-copy fw1" style="margin-top:0;">{{ page.subtitle }}</p>
-  </div>
-  <div class="line tc"></div>
-  <article class="measure lh-copy">
-    {{ content }}
+
+{% include _header.html %}
+  <header class="header-casestudy" id="{{ page.header-id }}">
+    <div class="wrapper">
+      <h1 style="text-align:center">{{ page.title }}</h1>
+      <p class="case-study-subhead">{{ page.subtitle }}</p>
+    </div>
+    {% if page.jewel %}
+      <div class="header-jewel">
+        <img src="/img/jewels/{{ page.jewel }}" alt="">
+      </div>
+    {% endif %}
+  </header>
+  <main class="main-casestudy">
+    <article>
+      {{ content }}
+    </article>
     <br>
+    <div class="wrapper case-study" markdown="1">
       <a href="https://twitter.com/share" class="twitter-share-button" data-via="AlexandeRussell">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </article>
-  {% if page.categories contains "projects" %}
-    {% include _related.html %}
-  {% endif %}
-
-  {% if page.categories contains "articles" %}
-    {% include _related_a.html %}
-  {% endif %}
-  <br>
-
-</main>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+  </main>
+{% include _related.html %}  
 {% include _footer.html %}
 

@@ -1,5 +1,3 @@
-Built with NKD by @mrmrs
-
 # License
 
 The MIT License (MIT)

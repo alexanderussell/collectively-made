@@ -1,11 +1,13 @@
 ---
 title: "We Are Vital"
-subtitle: "Crafting a Digital Space for a Movement; a Current WIP"
-layout: post
+subtitle: "Crafting a digital space for a movement; a current WIP"
+layout: post-a
 categories: projects
 tag: Web Design & Development
 permalink: /projects/wearevital
+img: WIP.png
 ---
+<div class="wrapper case-study" markdown="1">
 
 <a href="http://wearevital.org" target="_blank" >We Are Vital</a> is a grassroots neighborhood association. In mid 2015, donor associations around the city teamed up with land developers and started an effort to rebrand a neighborhood in preparation to begin massive redevelopment in the area. We Are Vital formed from a group of concerned residents who wanted to maintian a voice for the neighborhood.
 
@@ -17,7 +19,7 @@ We determined that most users are going to be new users as opposed to returning.
 
 <!-- {post its} -->
 
-# The Design
+## The Design
 
 The site's linearity is pretty shallow. Every interior page has a specific goal of giving the user access to resources to stay informed or participate.
 
@@ -36,7 +38,7 @@ Hosting is free so long as the organization or user keeps their code in a public
 Anyone can clone the site's code or contribute to it if they'd like. Creating a Github organization allows us to offer a space for other programmers to utilize their skills in building things for the community or just building things in the community. It's a space for us.
 
 
-# The Artwork
+## The Artwork
 
 Along with the conceptualization and front-end implementation of the site, I used this as an opportunity to explore my own fascination with the neighborhood I am currently living in. I spent many mornings in Cultiva, DaVincis, Pan Dulce Bakery, on the stoop, or on a walk. I experimented with different ways of sketching the characters of the neighborhood. 
 
@@ -49,3 +51,5 @@ It was very intentional to want to display people on the site. We Are Vital is a
 More than just the people, I wanted the imagery to feel very hand drawn. A heavy handed approach meant that the imperfections, the human-ness of the neighborhood is apparant. It also provided a unique opportunity to experiment with color. The neighborhood is indeed colorful but using overtly bright and vibrant colors we could extend this metaphor into the artwork.
 
 <a href="http://wearevital.org" target="_blank" >See the We Are Vital website at wearevital.org</a>
+
+</div>

@@ -5,13 +5,19 @@ layout: post
 category: projects
 tag: "Creative Programming"
 permalink: /projects/twitterbots
+img: twit-bot-thumb.png
+published: true
+header-id: header-twit
+jewel: twit-bot.png
 ---
 
-A twitterbot is more-or-less an automated text generator that spews spam, poetry, or interacts with other twitter users. I built my twitterbots, <a href="http://twitter.com/writingassnbot" target="_blank" >@WritingAssnBot</a>  &  <a href="http://twitter.com/MakesTheHeart" target="_blank" >@MakesTheHeart</a>, using Python. <a href="http://twitter.com/alexanderussel1" target="_blank" >@alexanderussel1</a> is written in ruby with the help of some open-source code.
+<div class="wrapper case-study" markdown="1">
+
+<span class="drop-cap">A</span> twitterbot is more-or-less an automated text generator that spews spam, poetry, or interacts with other twitter users. I built my twitterbots, <a href="http://twitter.com/writingassnbot" target="_blank" >@WritingAssnBot</a>  &  <a href="http://twitter.com/MakesTheHeart" target="_blank" >@MakesTheHeart</a>, using Python. <a href="http://twitter.com/alexanderussel1" target="_blank" >@alexanderussel1</a> is written in ruby with the help of some open-source code.
 <br>
 <br>
 
-# Writing Assignment Bot
+## Writing Assignment Bot
 
 <a href="http://twitter.com/writingassnbot" target="_blank" >@WritingAssnBot</a> uses a mad-lib style algorithm to formulate writing assignments every hour on the hour. Give it a follow and you'll soon be knee deep with things to write about.
 
@@ -19,7 +25,7 @@ A twitterbot is more-or-less an automated text generator that spews spam, poetry
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br>
 
-# Makes the Heart Grow Bot
+## Makes the Heart Grow Bot
 
 <a href="http://twitter.com/MakesTheHeart" target="_blank" >@MakesTheHeart</a> pulls words from two gigantic word lists composed of nouns and adjectives which then complete {noun} makes the heart grow {adjective}. 
 
@@ -27,7 +33,7 @@ A twitterbot is more-or-less an automated text generator that spews spam, poetry
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br>
 
-# Alexanderussell?
+## Alexanderussell?
 
 <a href="http://twitter.com/alexanderussel1" target="_blank" >@alexanderussel1</a> is an alter-ego bot based on open-source e-books code. The program reads <a target="_blank" href="http://twitter.com/alexanderussell">my tweets</a> and compiles them into a model that it then uses to create new tweets. There is a bit of logic that attempts to pair words in order to piece semi-coherent sentences together. 
 
@@ -47,7 +53,7 @@ The rhetoric produced varies in intensity and borders between poetry, philosophy
 
 <br>
 
-# Creating a home for the robots
+## Creating a home for the robots
 
 <figure class="img-left">
 <img style="max-width:300px;" src="/img/projects/raspberry-pi.jpg" />
@@ -69,3 +75,5 @@ $(window).on('load', function() {
     })
 });
 </script>
+
+</div>
