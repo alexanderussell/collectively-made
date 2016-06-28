@@ -5,6 +5,7 @@ layout: post
 categories: projects
 tag: Branding & Web Design
 permalink: http://madebymarket.com
+external: true
 published: true
 img: "mbm_thumb.png"
 featured: true
