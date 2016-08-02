@@ -43,7 +43,7 @@ Anyone can clone the site's code or contribute to it if they'd like. Creating a 
 Along with the conceptualization and front-end implementation of the site, I used this as an opportunity to explore my own fascination with the neighborhood I am currently living in. I spent many mornings in Cultiva, DaVincis, Pan Dulce Bakery, on the stoop, or on a walk. I experimented with different ways of sketching the characters of the neighborhood. 
 
 <div class="wrapper-l">
-    <img  src="/img/projects/1.png" />
+    <img  src="/img/projects/sketch.png" />
 </div>
 
 It was very intentional to want to display people on the site. We Are Vital is all about people. While the city is focusing so much on the buildings of the neighborhood, We Are Vital is examining the people inside those buildings. 
