@@ -42,13 +42,19 @@ Anyone can clone the site's code or contribute to it if they'd like. Creating a 
 
 Along with the conceptualization and front-end implementation of the site, I used this as an opportunity to explore my own fascination with the neighborhood I am currently living in. I spent many mornings in Cultiva, DaVincis, Pan Dulce Bakery, on the stoop, or on a walk. I experimented with different ways of sketching the characters of the neighborhood. 
 
-<!-- {sketch} -->
+<div class="wrapper-l">
+    <img  src="/img/projects/1.png" />
+</div>
 
 It was very intentional to want to display people on the site. We Are Vital is all about people. While the city is focusing so much on the buildings of the neighborhood, We Are Vital is examining the people inside those buildings. 
 
-<!-- {sketch} -->
+<!-- <div class="wrapper-l">
+    <img  src="/img/projects/2.png" />
+</div> -->
 
 More than just the people, I wanted the imagery to feel very hand drawn. A heavy handed approach meant that the imperfections, the human-ness of the neighborhood is apparant. It also provided a unique opportunity to experiment with color. The neighborhood is indeed colorful but using overtly bright and vibrant colors we could extend this metaphor into the artwork.
+
+More soon.
 
 <a href="http://wearevital.org" target="_blank" >See the We Are Vital website at wearevital.org</a>
 
