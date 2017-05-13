@@ -259,8 +259,7 @@ video {
   padding-bottom: 2em; }
 
 .home {
-    background: 
-    url(/img/me_bg.jpg) no-repeat center bottom #fff;
+    background: #fff;
     background-size: auto 100%;
     background-position: 125% 0%;
     min-height: 100%;
