@@ -1,123 +1,71 @@
 ---
 layout: default
-permalink: /
 ---
-<script>
-  $(function(){
-    $(".element").typed({
-      strings: ["a designer", "a developer", "an artist", "a writer"],
-      typeSpeed: 100,
-      // backspacing speed
-      backSpeed: 0,
-      // time before backspacing
-      backDelay: 2000,
-      // loop
-      loop: true,
-      // false = infinite
-      loopCount: false
-    });
-  });
-</script>
 
-  <section class="home">
-    <div class="wrapper-home">
-      <p class="hero"><b>Alexander</b> is 
-      <em class="element" style="padding-bottom: 0;margin-bottom:0;"></em>
-      <noscript>
-        <em>a Designer</em>
-      </noscript>
-      <br>
-      who wants to work with you. <a class="curl" href="mailto:alex@collectivelymade.com">↬</a></p>
-      <p class="bio"><b>Looking to design a digital product? Need a website to attract business? Want to create a proof-of-concept / prototype?</b>
-      <br>
-      I partner with startups, small organizations, and non-profits to re-think design strategies or invent new ones. I also co-operate a research and design collective called <a target="_blank" href="http://www.collectivelymade.com">Collectively Made</a>.</p>
-    </div>
-  </section>
+<main class="container-584">
+    <div class="row spacer6-2">
+        
+        <div class="box">
+        
+            {% include intro.html %}
 
-
-  <div class="wrapper-l projects">
-
-    <div class="half column">
-      <div class="intro">
-        <p>
-        I've designed &amp; implemented solutions that have helped clients <b>save time</b>, <b>save money</b>, and <b>provide delight.</b>
-        </p>
-      </div>
-      <div id="qis-thumb" class="project-thumb">
-        <a class="project-link" href="projects/qis">
-          <div class="thumb-caption">
-            <span class="case-name">QIS</span>
-            <h2>Health &amp; Human Services App.</h2>
-          </div>
-          <div class="thumb-cover"></div>
-        </a>
-      </div>
-      <div id="bike-thumb" class="project-thumb">
-        <a class="project-link" href="/projects/bike-speed-poetry-generator">
-          <div class="thumb-caption">
-            <span class="case-name">Bike Poetry Generator</span>
-            <h2>Experimenting with madness.</h2>
-          </div>
-          <div class="thumb-cover"></div>
-        </a>
-      </div>
-    </div>
-
-    <div class="half column">
-      <div id="mowdo-thumb" class="project-thumb">
-          <a class="project-link" href="projects/mowdo">
-            <div class="thumb-caption">
-              <span class="case-name">Mowdo</span>
-              <h2>Uber for lawncare.</h2>
-            </div>
-            <div class="thumb-cover"></div>
-          </a>
         </div>
-      <div id="mbm-thumb" class="project-thumb">
-        <a class="project-link" href="http://madebymarket.com" target="_blank">
-          <div class="thumb-caption">
-            <span class="case-name">Market Interactive</span>
-            <h2>Revitalizing a brand identity.</h2>
-          </div>
-          <div class="thumb-cover"></div>
-        </a>
-      </div>
-      <div class="outro">
-        <p>
-        View more projects below, or view work on <a href="http://dribbble.com/alexanderussell">Dribbble</a>.
-        </p>
-      </div>
-      
+
     </div>
-      
+    <div class="row spacer3-0">
+        <hr>
+    </div>
+    <div class="row timeline spacer3-0">
+        
+        {% for post in site.posts  %}
+        
+            {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+            {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+            {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+            {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-  </div>
+            {% if forloop.first %}
+                <h5 class="spacer0-1 c-light tr" id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}, {{ this_year}} </h5>
+                <ul>
+            {% endif %}
 
-  <div class="feed-s-wrapper">
-    <div class="feed-s">
+                {% if post.category == "update" %}
+                    {% include update-item.html %}
+                {% endif %}
+                {% if post.category == "post" %}
+                    {% include post-item.html %}
+                {% endif %}
+                
 
-      <h2>More Work</h2>
+            {% if forloop.last %}
+                </ul>
+                {% else %}
+                {% if this_year != next_year %}
+                </ul>
+                <h5 class="spacer0-1 c-light tr" id="{{ next_year }}-{{ next_month }}-ref">{{ next_month }}, {{ next_year }}</h5>
+                <ul>
+                {% else %}    
+                    {% if this_month != next_month %}
+                    </ul>
+                    <h5 class="spacer0-1 c-light tr" id="{{ this_year }}-{{ next_month }}-ref">{{ next_month }}, {{this_year}}</h5>
+                    <ul>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
 
-      {% for project in site.categories.projects %}
-      {% if project.featured == null %}
-      <div class="post">
-      <a href="{% if project.external == true %}{{ project.permalink }}{% else %}{{ project.url }}{% endif %}">
-        <div class="post-content">
-          <img class="post-image" src="/img/thumb/{{project.img}}" />
-          <div class="post-description">
-            <div class="post-description-text">
-              <p class="post-title">{{ project.title }}</p>
-              <p class="post-source">{{ project.subtitle }}</p>
+        <div class="flex timeline-item spacer0-6">
+            <div class="flex flex-col items-center timeline-visual">
+                <div class="flex justify-center timeline-bullet"></div>
             </div>
-          </div>
+            <div class="flex flex-col flex-1 ml-4 space-y-4">
+                <div class="flex flex-col pt-1 contents-center">
+                    <h3 class="">Work in progress</h3>
+                    <span class="post-meta">More timeline entries coming soon</span>
+                </div>
+            </div>
         </div>
-      </a>
-    </div>
-      {% endif %}
-      {% endfor %}
 
+    
     </div>
-    <div class="cf"></div>
-  </div>
-
-{% include _footer.html %}
+</main>

@@ -1,0 +1,18 @@
+toc:
+  - title: Column 1
+    list:
+      - page: Home
+        url: /
+      - page: About
+        url: /about
+      - page: Contact
+        url: mailto:alex@collectivelymade.com
+        tab: blank
+  - title: Column 2
+    list:
+      - page: dribbble
+        url: https://dribbble.com/alexanderussell
+        tab: blank
+      - page: twitter
+        url: https://twitter.com/alexanderussell
+        tab: blank

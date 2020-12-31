@@ -1,0 +1,13 @@
+<footer class="container-584">
+
+    <hr>
+    <small class="spacer6-6 grid grid-col-3">
+        {% for item in site.data.footer.toc %}
+        <div class="flex flex-col">
+            {% for entry in item.list %}
+            <a class="spacer0-1" href="{{ entry.url }}">{{ entry.page }} {% if item.target == blank %} target="_blank" {% endif %}</a>
+            {% endfor %} 
+        </div>
+        {% endfor %}
+    </small>
+</footer>

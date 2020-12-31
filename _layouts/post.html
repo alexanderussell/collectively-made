@@ -2,28 +2,13 @@
 layout: default
 ---
 
-{% include _header.html %}
-  <header class="header-casestudy" id="{{ page.header-id }}">
-    <div class="wrapper">
-      <h1 style="text-align:center">{{ page.title }}</h1>
-      <p class="case-study-subhead">{{ page.subtitle }}</p>
-    </div>
-    {% if page.jewel %}
-      <div class="header-jewel">
-        <img src="/img/jewels/{{ page.jewel }}" alt="">
-      </div>
-    {% endif %}
-  </header>
-  <main class="main-casestudy">
+<main>
     <article>
-      {{ content }}
-    </article>
-    <br>
-    <div class="wrapper case-study" markdown="1">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="AlexandeRussell">Tweet</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </div>
-  </main>
-{% include _related.html %}  
-{% include _footer.html %}
+        <h2>
+            {{ page.title }}
+        </h2>
 
+        {{ content }}
+
+    </article>
+</main>

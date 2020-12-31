@@ -1,0 +1,20 @@
+<div class="flex timeline-item spacer0-2">
+    <div class="flex flex-col items-center timeline-visual">
+        <div class="flex justify-center timeline-bullet"></div>
+        <div class="flex-1 timeline-stroke"></div>
+    </div>
+    <div class="flex flex-col flex-1 ml-4 space-y-4">
+        <div class="flex flex-col pt-1 contents-center">
+            <h3 class="c-dark">Published new post</h3>
+            <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+        </div>
+        <div class="flex flex-col timeline-full-width">
+            <a class="post-card" href="{{ post.url }}">
+                <div class="box">
+                    <h3>{{ post.title }}</h3>
+                    <h5>{{ post.subtitle }}</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

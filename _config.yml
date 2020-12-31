@@ -1,58 +1,52 @@
-#=====================================
+# Welcome to Jekyll!
 #
-# NKD - A simple Jekyll boilerplate
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
-# More on Jekyll: http://jekyllrb.com/
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-#=====================================
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# This will be the first part of the title tag for your site
-# <title> {{site.name}} </title>
-# ============================================================
-name: "Alexander Russell"
-title: "Alexander Russell"
-
-# Populates the meta description for the site. Should be under 150 characters for best SEO results.
-# ============================================================
-description: "Alexander Russell is a desginer who wants to work with you. Alex partners with startups, small organizations, and non-profits to re-think design strategies or invent new ones. Product Design, Graphic Design, UI UX, Web Design."
-
-# Owner (organization or individual) of site content - You'll want to change this from mrmrs :)
-# ============================================================
-author: "alexanderussell"
-
-# Change this to your production URL
-# ============================================================
-url: "http://alexanderussell.org"
-
-# Publish future posts or not option.
-# ============================================================
-future: true
-
-mailchimp:
-  user-id: REPLACEME
-  list-id: 0b7dc58633
-
-# "A list of directories (including trailing slash) and files to exclude from the conversion"
-# I normally exclude _sass, README*, and .gitignore
-# Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
-# ============================================================
-exclude: [README.md, Rakefile, node_modules]
-
-# Pagination variable for how many posts to show in a list
-# ============================================================
-#paginate: 5
-
-# Style of permalinks
-# ============================================================
-permalink: none
-
-markdown: kramdown
-highlighter: rouge
-
-# Variable format options for URL styles below
-# ============================================================
-# pretty                                          => /2009/04/29/slap-chop/index.html
-# /:month-:day-:year/:title.html/                 => 04-29-2009/slap-chop.html
-# /blog/:year/:month/:day/:title                  => /blog/2009/04/29/slap-chop/index.html
+title: Alexander Russell
+email: alex@collectivelymade.com.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Alex is a designer and creative technologist who wants to work with you.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://alexanderussell.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 
+# Build settings
+theme: 
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
