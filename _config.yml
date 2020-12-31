@@ -27,7 +27,7 @@ url: "http://alexanderussell.org" # the base hostname & protocol for your site, 
 
 
 # Build settings
-theme: 
+theme: minima
 plugins:
   - jekyll-feed
 
