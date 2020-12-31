@@ -1,0 +1,39 @@
+<div class="timeline-item flex">
+    <div class="flex flex-col items-center mr1 timeline-visual">
+        <div class="timeline-dot flex justify-center">
+            <i class="material-icons">{{ post.icon }}</i>
+        </div>
+        <div class="timeline-line flex-1"></div>
+    </div>
+    <div class="flex flex-col flex-1">
+        <div class="flex flex-col">
+            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+            <h3 class="c-dark">{{ post.title }}</h3>
+        </div>
+        <div class="flex flex-col timeline-full-width">
+            {% if post.note %}
+            <div class="note">
+                <p>{{ post.note }}</p>
+            </div>
+            {% endif %}
+            {% if post.external-url %}
+            <div class="flex flex-wrap timeline-inset">
+                <a href="{{post.external-url}}" target="_blank" rel="noopener noreferrer" class="btn">{{ post.cta }}</a>
+            </div>
+            {% endif %}
+
+            {% assign content = post.content | strip_newlines %}
+
+            {% if content != ""  %}
+            <div class="flex flex-col timeline-full-width">
+                <a class="post-card" href="{{ post.url }}">
+                    <div class="box">
+                        <h3>{{ post.title }}</h3>
+                        <h5>{{ post.subtitle }}</h5>
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

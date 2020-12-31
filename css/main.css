@@ -6,7 +6,7 @@
     --dark: #0C0C0D;
     --medium: #4B4B4B;
     --light: #646464;
-    --ultralight: #f8f8f9;
+    --ultralight: #f2f2f7;
     --border: #e6e7e8;
     --link: #F2E39B;
     --background: #ffffff;
@@ -18,8 +18,8 @@
   :root {
     --alwaysblack: #0C0C0D;
     --dark: #ececec;
-    --medium: #c3c3c3;
-    --light: #a2a2a2;
+    --medium: #a2a2a2;
+    --light: #8f8f8f;
     --ultralight: #272829;
     --border: #35363a;
     --link: #F2E39B;
@@ -29,17 +29,19 @@
 }
 
 
-/* Customize selection color. */
+/* Remove _all_ animations and transitions for people that prefer not to see them */
 
-/* ::-moz-selection {
-  background: var(--highlight);
-  color: var(--dark);
+@media (prefers-reduced-motion: reduce) {
+  body {
+    scroll-behavior: auto;
+  }
+
+  * {
+    -webkit-animation: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
 }
-
-::selection {
-  background: var(--highlight);
-  color: var(--dark);
-} */
 
 
 /* All Sizes */
@@ -48,6 +50,7 @@ html {
   font-family: 'Roboto Mono', Helvetica, sans-serif;
   font-feature-settings: "kern", "liga", "onum";
   -webkit-font-smoothing: antialiased;
+  font-size: clamp(16px, 1.4vw, 18px);
 }
 
 body {
@@ -66,8 +69,32 @@ div {
   box-sizing: border-box;
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 .container {
-  width: 100%;
   padding: 0em 2em 0em 2em;
   /* margin: 1em 0em 4em 0em; */
   margin: 0 auto;
@@ -143,6 +170,11 @@ div {
 .spacer12-6 {
   padding: 12em 0em 6em 0em;
 }
+
+.ml1 {margin-left: 1rem;}
+.ml2 { margin-left: 2rem;}
+.mr1 { margin-right: 1rem;}
+.mr2 { margin-right: 2rem;}
 
 .flex { display: flex; }
 .flex-col { flex-direction: column; }
@@ -223,16 +255,17 @@ h1.intro {
   font-family: 'Roboto Mono', Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  color: var(--light);
+  color: var(--medium);
 }
 
 span {
   color: var(--dark);
+  font-weight: 500;
 }
 
 p {
   font-size: 1rem;
-  color: var(--light);
+  color: var(--medium);
 }
 
 ol {
@@ -265,7 +298,7 @@ h3 {
 
 h5 {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--medium);
 }
 
@@ -341,7 +374,7 @@ a {
 }
 
 a:hover {
-  color: var(--light);
+  color: var(--dark);
   text-decoration: underline;
   -webkit-text-decoration-color: var(--medium);
   text-decoration-color: var(--medium);
@@ -358,7 +391,8 @@ a:hover {
 
 .btn, button {
   font-family: 'Inter', Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: .15px;
   font-size: .875rem;
   line-height: 1.25rem;
   padding: 0.5rem 1rem;
@@ -573,23 +607,27 @@ a:hover {
   padding: 0;
 }
 
-.timeline-visual {
-  margin-right:1.5rem;
+.timeline-item {
+  margin: 2rem 0;
 }
 
-.timeline-bullet {
-  border-radius:999px;
-  padding:1rem;
-  background: var(--border);
-  border-color: var(--background);
-  border-width: 4px;
+.timeline-dot {
+  border-radius: 999px;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: var(--ultralight);
 }
 
-.timeline-stroke {
-  width: 1px;
-  background-color: var(--border);
-  flex: 1 1 0%;
-  margin-bottom: -1rem;
+.timeline-dot i {
+  color: var(--light);
+  font-size: 1rem;
+}
+
+.timeline-line {
+  width: 2px;
+  background: var(--ultralight);
+  height: 100%;
+  margin-bottom:-1rem;
 }
 
 .post-meta {
@@ -632,6 +670,11 @@ a:hover {
   border-radius: 4px;
   outline-offset: 2px;
 }
+
+
+
+
+
 /* Tiny mobile */
 
 @media only screen and (max-width: 479px) {
@@ -651,20 +694,11 @@ a:hover {
   .sticky {
     display: none;
   }
-  .name {
-    text-align: center;
-  }
-  .name a {
-    padding: 1em 1em 1em 1em;
-  }
   .navigation {
     text-align: center;
   }
   .nav-item a {
     padding: 0.75em;
-  }
-  .project-description {
-    text-align: left;
   }
 }
 
@@ -675,21 +709,14 @@ a:hover {
   .sticky {
     display: none;
   }
-  .name {
-    text-align: center;
-  }
-  .name a {
-    padding: 1em 1em 1em 1em;
-  }
   .navigation {
     text-align: center;
   }
   .nav-item a {
     padding: 0.75em;
   }
-  .project-description {
-    text-align: left;
-  }
+
+
 }
 
 

@@ -8,6 +8,8 @@ toc:
       - page: Contact
         url: mailto:alex@collectivelymade.com
         tab: blank
+      - page: Colophon
+        url: /colophon
   - title: Column 2
     list:
       - page: dribbble
