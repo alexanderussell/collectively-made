@@ -8,7 +8,7 @@
     --light: #646464;
     --ultralight: #f2f2f7;
     --border: #e6e7e8;
-    --link: #F2E39B;
+    --link: rgb(242, 227, 155, 0.5);
     --background: #ffffff;
     --highlight: #F2E39B;
   }
@@ -22,7 +22,7 @@
     --light: #8f8f8f;
     --ultralight: #272829;
     --border: #35363a;
-    --link: #F2E39B;
+    --link: rgb(242, 227, 155, 0.7);
     --background: #181922;
     --highlight: #F2E39B;
   }
@@ -47,7 +47,7 @@
 /* All Sizes */
 
 html {
-  font-family: 'Roboto Mono', Helvetica, sans-serif;
+  font-family: 'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-feature-settings: "kern", "liga", "onum";
   -webkit-font-smoothing: antialiased;
   font-size: clamp(16px, 1.4vw, 18px);
@@ -125,6 +125,10 @@ div {
   padding: 0em 2em 0em 2em;
   /* margin: 1em 0em 4em 0em; */
   margin: 0 auto;
+}
+
+.w100 {
+  width:100%;
 }
 
 .spacer0-1 {
@@ -232,7 +236,7 @@ video {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1 {
@@ -252,7 +256,7 @@ h2 a {
 }
 
 h1.intro {
-  font-family: 'Roboto Mono', Helvetica, sans-serif;
+  font-family: 'Roboto Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1rem;
   font-weight: normal;
   color: var(--medium);
@@ -324,7 +328,7 @@ p a {
 p a:hover {
   color: var(--alwaysblack);
   text-decoration: none;
-  background-color: #DDD3A5;
+  background-color:var(--highlight);
   cursor: pointer;
   padding: 1px 5px;
   border-radius: .15rem;
@@ -390,7 +394,7 @@ a:hover {
 .tl { text-align: left;}
 
 .btn, button {
-  font-family: 'Inter', Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
   letter-spacing: .15px;
   font-size: .875rem;
@@ -607,6 +611,10 @@ a:hover {
   padding: 0;
 }
 
+.timeline-full-width {
+  width: 100%;
+}
+
 .timeline-item {
   margin: 2rem 0;
 }
@@ -635,13 +643,31 @@ a:hover {
   font-size: 0.8rem;
 }
 
+.read-time {
+  font-size: .7rem;
+  font-weight: 400;
+  color: var(-light);
+}
+
+.post-img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 0.3em 0.3em 0 0;
+  overflow: hidden;
+}
+
+.post-img img {
+  width: 100%;
+}
+
 .post-card {
-  padding: 1rem 1.5rem;
-  background: var(--ultralight);
+  color: var(--dark);
+  width: 100%;
+  background: var(--background);
+  border: .125px solid var(--border);
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 1px 2px 0em rgba(0,0,0,0.05);
-  box-shadow: 0 1px 2px 0em rgba(0,0,0,0.05);
-  border: 2px solid var(--ultralight);
+  -webkit-box-shadow: 0 2px 4px 0em var(--border);
+  box-shadow: 0 2px 4px 0em var(--border);
   transition-property: box-shadow;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   transition-duration: .15s;
@@ -655,9 +681,9 @@ a:hover {
 }
 
 .post-card:hover {
-  color: var(--dark);
-  border-color: var(--border);
   text-decoration: none;
+  -webkit-box-shadow: 0 6px 12px 0em var(--border);
+  box-shadow: 0 6px 12px 0em var(--border);
 }
 
 .post-card:active {
@@ -671,8 +697,17 @@ a:hover {
   outline-offset: 2px;
 }
 
+.post-card .post-text {
+  padding: .75rem 1.5rem 1.5rem 1.5rem;
+}
 
-
+.post-text h3 {
+  margin-bottom: .25rem;
+}
+.post-text p {
+  font-size: 0.8rem;
+  margin: 0;
+}
 
 
 /* Tiny mobile */

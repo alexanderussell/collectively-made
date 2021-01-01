@@ -1,16 +1,20 @@
-<div class="timeline-item flex">
+<div class="timeline-item flex fadeinup">
     <div class="flex flex-col items-center mr1 timeline-visual">
         <div class="timeline-dot flex justify-center">
             <i class="material-icons">{{ post.icon }}</i>
         </div>
         <div class="timeline-line flex-1"></div>
     </div>
-    <div class="flex flex-col flex-1">
+    <div class="flex flex-col flex-1 w100">
         <div class="flex flex-col">
             <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+            {% if post.category == "article"  %}
+            <h3 class="c-dark">Published Post</h3>
+            {% else %}
             <h3 class="c-dark">{{ post.title }}</h3>
+            {% endif %}
         </div>
-        <div class="flex flex-col timeline-full-width">
+        <div class="timeline-full-width">
             {% if post.note %}
             <div class="note">
                 <p>{{ post.note }}</p>
@@ -25,11 +29,17 @@
             {% assign content = post.content | strip_newlines %}
 
             {% if content != ""  %}
-            <div class="flex flex-col timeline-full-width">
-                <a class="post-card" href="{{ post.url }}">
-                    <div class="box">
+            <div class="post-card">
+                <a class="" href="{{ post.url }}">
+                    {% if post.img %}
+                    <div class="post-img">
+                        <img src="../img/articles/{{ post.img }}" alt="{{ post.img-alt | default: 'image representing a theme in this article' }}" />
+                    </div>
+                    {% endif %}
+                    <div class="box post-text">
+                        {% include read-time.html %}
                         <h3>{{ post.title }}</h3>
-                        <h5>{{ post.subtitle }}</h5>
+                        <p>{{ post.excerpt | truncate: 156 | remove: '<p>' | remove: '</p>' }}</p>
                     </div>
                 </a>
             </div>

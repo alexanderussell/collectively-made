@@ -5,7 +5,11 @@
         {% for item in site.data.footer.toc %}
         <div class="flex flex-col">
             {% for entry in item.list %}
-            <a class="spacer0-1" href="{{ entry.url }}">{{ entry.page }} {% if item.target == blank %} target="_blank" {% endif %}</a>
+                {% if entry.tab == "new" %} 
+                    <a class="spacer0-1" href="{{ entry.url }}" target="_blank">{{ entry.page }}</a> 
+                {% else %}
+                    <a class="spacer0-1" href="{{ entry.url }}">{{ entry.page }}</a>
+                {% endif %}
             {% endfor %} 
         </div>
         {% endfor %}

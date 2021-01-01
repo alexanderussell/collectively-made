@@ -7,14 +7,14 @@ toc:
         url: /about
       - page: Contact
         url: mailto:alex@collectivelymade.com
-        tab: blank
+        tab: new
       - page: Colophon
         url: /colophon
   - title: Column 2
     list:
       - page: dribbble
         url: https://dribbble.com/alexanderussell
-        tab: blank
+        tab: new
       - page: twitter
         url: https://twitter.com/alexanderussell
-        tab: blank
+        tab: new
