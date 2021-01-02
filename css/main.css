@@ -272,15 +272,27 @@ p {
   color: var(--medium);
 }
 
-ol {
+ol, ul {
   /* list-style-type: decimal-leading-zero; */
-  padding-inline-start: 0em;
+  padding-inline-start: 1em;
+  list-style: none; /* Remove default bullets */
+
+}
+
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--light); 
+  font-weight: bold; 
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
 }
 
 ul li,
 ol li {
   font-size: 1rem;
-  margin: .5em 0 .5em 0;
+  margin: .5rem 0 .5rem 0;
 }
 
 ::marker {
@@ -479,7 +491,7 @@ a:hover {
 }
 
 .annotation {
-  margin-left: 1em;
+  opacity: 0.7;
   color: var(--light);
   font-size: 0.8rem;
   margin-bottom: 1em;
