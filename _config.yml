@@ -23,7 +23,7 @@ email: alex@collectivelymade.com.com
 description: >- # this means to ignore newlines until "baseurl:"
   Alex is a designer and creative technologist who wants to work with you.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alexanderussell.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://alexanderussell.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
