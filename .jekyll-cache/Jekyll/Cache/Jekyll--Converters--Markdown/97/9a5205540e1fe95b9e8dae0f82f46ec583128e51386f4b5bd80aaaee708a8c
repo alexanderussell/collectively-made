@@ -1,0 +1,6 @@
+I"<!-- This site is an attempt to produce a personal website that curates output from a multitude of creative outlets and endeavors. In trying to maintain simplicity and consolidation while embracing a sprawl of interests, I leaned into the design pattern of changelogs and activity feeds. Time itself becomes a method of organization.
+
+The site design, content, and purpose was largely influenced by [Brian Lovin](https://brianlovin.com/){:target="_blank"}, [Frank Chimero](https://frankchimero.com/){:target="_blank"}, and [Julian Lehr](https://julian.digital/){:target="_blank"}. -->
+
+<p>The site is built primarily with HTML, CSS, and Markdown. Preprocessed by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted using Github pages. It leverages Markdown allowing relatively simple publishing. The sans serif typeface is <a href="https://rsms.me/" target="_blank">Inter UI by Rasmus Andersson</a> and the serif is <a href="https://fonts.google.com/specimen/Roboto+Mono" target="_blank">Roboto Mono by Christian Robertson</a>.</p>
+:ET
