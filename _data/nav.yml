@@ -1,0 +1,8 @@
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: mailto:alex@collectivelymade.com
+    tab: new

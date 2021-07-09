@@ -445,12 +445,6 @@ a:hover {
   border-radius: .2em;
 }
 
-.nav-item a .me-img:hover {
-  -webkit-transform: scale(1.05) rotate(0.1turn);
-  -ms-transform: scale(1.05) rotate(0.1turn);
-  transform: scale(1.05) rotate(0.1turn);
-}
-
 .img-border {
   -webkit-box-shadow: 0 0 0 0.15em var(--border);
   box-shadow: 0 0 0 0.15em var(--border);
@@ -529,6 +523,10 @@ a:hover {
 }
 
 .nav-item a:hover {
+  color: var(--dark);
+}
+
+.nav-item .current {
   color: var(--dark);
 }
 
